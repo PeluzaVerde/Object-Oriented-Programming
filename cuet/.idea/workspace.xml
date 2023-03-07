@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="cuet" targetName="cuet" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce927682-8eda-4168-82c3-1e5e8dc9de3d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/a7-8/Agenda_csv.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a7-8/Agenda_csv.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a7-8/Agenda_html.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a7-8/Agenda_html.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a7-8/UMLA9.mdj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a7-8/agenda.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a7-8/agenda.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a7-8/compa.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a7-8/compa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a7-8/events.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a7-8/lab/Comparator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a7-8/lab/Comparator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a7-8/lab/Comparator_ascending_by_nr_ppl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a7-8/lab/Comparator_ascending_by_nr_ppl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a7-8/lab/Comparator_descending_by_title.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a7-8/lab/Comparator_descending_by_title.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a7-8/validator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a7-8/validator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a7-8/Agenda.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/a7-8/Agenda.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a7-8/Agenda.h" beforeDir="false" afterPath="$PROJECT_DIR$/a7-8/Agenda.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a7-8/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/a7-8/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a7-8/Controller.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/a7-8/Controller.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a7-8/Controller.h" beforeDir="false" afterPath="$PROJECT_DIR$/a7-8/Controller.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a7-8/DynamicVector.h" beforeDir="false" afterPath="$PROJECT_DIR$/a7-8/DynamicVector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a7-8/Event.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/a7-8/Event.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a7-8/Event.h" beforeDir="false" afterPath="$PROJECT_DIR$/a7-8/Event.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a7-8/Repo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/a7-8/Repo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a7-8/Repo.h" beforeDir="false" afterPath="$PROJECT_DIR$/a7-8/Repo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a7-8/UI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/a7-8/UI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a7-8/UI.h" beforeDir="false" afterPath="$PROJECT_DIR$/a7-8/UI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a7-8/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/a7-8/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a7-8/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/a7-8/tests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a7-8/tests.h" beforeDir="false" afterPath="$PROJECT_DIR$/a7-8/tests.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/a7-8" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3.3" />
+  </component>
+  <component name="ProjectId" id="28po1de4kbRP7ynucuiYZIoz2Gv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\CLionProjects\cuet" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cuet" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cuet" TARGET_NAME="cuet" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cuet" RUN_TARGET_NAME="cuet">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce927682-8eda-4168-82c3-1e5e8dc9de3d" name="Changes" comment="" />
+      <created>1651922674908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651922674908</updated>
+      <workItem from="1651922678439" duration="2874000" />
+      <workItem from="1651927577295" duration="120000" />
+      <workItem from="1678231579276" duration="797000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
