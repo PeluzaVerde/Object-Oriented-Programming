@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "a5_6",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "a5_6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a5_6-Debug-796c808bc27199c1516b.json",
+					"name" : "a5_6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "a5_6_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a5_6_autogen-Debug-fe0ce48243248580455e.json",
+					"name" : "a5_6_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "a5_6_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a5_6_autogen_timestamp_deps-Debug-33ab6dd5ba716bcc5111.json",
+					"name" : "a5_6_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/HP/Desktop/a7-8v5/a7-8v5/a7-8v5/a7-8v2/a7-8/cmake-build-debug",
+		"source" : "C:/Users/HP/Desktop/a7-8v5/a7-8v5/a7-8v5/a7-8v2/a7-8"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

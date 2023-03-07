@@ -1,0 +1,313 @@
+        -:    0:Source:D:/Downloads/Downloads/a7-8v2/a7-8/DynamicVector.h
+        -:    0:Graph:D:\Downloads\Downloads\a7-8v2\a7-8\cmake-build-debug-coverage\CMakeFiles\a5_6.dir\Controller.cpp.gcno
+        -:    0:Data:D:\Downloads\Downloads\a7-8v2\a7-8\cmake-build-debug-coverage\CMakeFiles\a5_6.dir\Controller.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#pragma once
+        -:    2:#include "Event.h"
+        -:    3:#include "vector"
+        -:    4:
+        -:    5://typedef Event TElement;
+        -:    6:
+        -:    7:template <typename TElement>
+        -:    8:class DynamicVector
+        -:    9:{
+        -:   10:private:
+        -:   11://    TElement* elems;
+        -:   12://    int size;
+        -:   13://    int capacity;
+        -:   14:std::vector<TElement> elems;
+        -:   15:
+        -:   16:public:
+        -:   17:    // default constructor for a DynamicVector
+        -:   18:    DynamicVector(int capacity = 10)  ;
+        -:   19:
+        -:   20:    // copy constructor for a DynamicVector
+        -:   21:    DynamicVector(const DynamicVector& v);
+        -:   22:    ~DynamicVector();
+        -:   23:
+        -:   24:    // assignment operator for a DynamicVector
+        -:   25:    DynamicVector& operator=(const DynamicVector& v);
+        -:   26:
+        -:   27:    // Adds an element to the current DynamicVector.
+        -:   28:    void add_element(const TElement& e);
+        -:   29:
+        -:   30:    //Deletes an element from the current DynamicVector.
+        -:   31:    void delete_element(const TElement& e);
+        -:   32:
+        -:   33:    //Finds an element and returns its position in the DynamicVector.
+        -:   34:    int position_element(const TElement& e);
+        -:   35:
+        -:   36:    //Updates an element
+        -:   37:    void update_element(const TElement& e, const TElement& new_e);
+        -:   38:
+        -:   39:    //Gets an element from the position
+        -:   40:    TElement get_element_from_position(int position) const;
+        -:   41:
+        -:   42:    int get_size() const;
+        -:   43:
+        -:   44:
+        -:   45:    TElement get_element(int i) const;
+        -:   46:    //std::vector<TElement> get_all_elems() const;
+        -:   47:
+        -:   48:    /*
+        -:   49:    DynamicVector& operator+(const TElement& e);
+        -:   50:
+        -:   51:    friend DynamicVector operator+(const TElement& e,const DynamicVector& v)
+        -:   52:    {
+        -:   53:        DynamicVector temp = v;
+        -:   54:        temp.add_element(e);
+        -:   55:        return temp;
+        -:   56:    }
+        -:   57:
+        -:   58:    friend DynamicVector operator+(const DynamicVector& v, const TElement& e);
+        -:   59:     */
+        -:   60:
+        -:   61:private:
+        -:   62:    // Resizes the current DynamicVector, multiplying its capacity by a given factor (real number).
+        -:   63:    void resize(double factor = 2);
+        -:   64:};
+        -:   65:
+        -:   66:
+        -:   67:
+        -:   68:
+        -:   69:
+        -:   70:
+        -:   71:
+        -:   72:
+        -:   73:
+        -:   74:
+        -:   75:#include "DynamicVector.h"
+        -:   76:
+        -:   77:
+        -:   78:
+        -:   79:template <typename TElement>
+        -:   80:DynamicVector<TElement>::DynamicVector( int capacity)
+        -:   81:{
+        -:   82://    this->size = v.size;
+        -:   83://    this->capacity = v.capacity;
+        -:   84://    this->elems = new TElement[this->capacity];
+        -:   85://    for (int i = 0; i < this->size; i++)
+        -:   86://        this->elems[i] = v.elems[i];
+        -:   87:
+        -:   88:
+        -:   89:}
+        -:   90:
+        -:   91:
+        -:   92:
+        -:   93:template <typename TElement>
+        -:   94:DynamicVector<TElement>::DynamicVector(const DynamicVector<TElement>& v)
+        -:   95:{
+        -:   96://    this->size = v.size;
+        -:   97://    this->capacity = v.capacity;
+        -:   98://    this->elems = new TElement[this->capacity];
+        -:   99://    for (int i = 0; i < this->size; i++)
+        -:  100://        this->elems[i] = v.elems[i];
+        -:  101:this->elems = v.elems;
+        -:  102:
+        -:  103:}
+        -:  104:
+        -:  105:template <typename TElement>
+function _ZN13DynamicVectorI5EventED1Ev called 0 returned 0% blocks executed 0%
+    #####:  106:DynamicVector<TElement>::~DynamicVector()
+        -:  107:{
+    #####:  108:    this->elems.clear();
+    %%%%%:  108-block  0
+call    0 never executed
+    #####:  109:}
+call    0 never executed
+        -:  110:
+        -:  111:template <typename TElement>
+function _ZN13DynamicVectorI5EventEaSERKS1_ called 8 returned 100% blocks executed 64%
+        8:  112:DynamicVector<TElement>& DynamicVector<TElement>::operator=(const DynamicVector<TElement>& v)
+        -:  113:{
+        8:  114:    if (this == &v)
+        8:  114-block  0
+branch  0 taken 0 (fallthrough)
+branch  1 taken 8
+    #####:  115:        return *this;
+    %%%%%:  115-block  0
+        -:  116:
+        8:  117:    this->elems.clear();
+        8:  117-block  0
+call    0 returned 8
+        -:  118:    //this->elems.size() = v.elems.size();
+        -:  119:    //this->capacity = v.capacity;
+        -:  120:
+        -:  121:    //delete[] this->elems;
+        -:  122:    //this->elems = new TElement[this->capacity];
+       8*:  123:    for (int i = 0; i != v.elems.size(); i++)
+        8:  123-block  0
+call    0 returned 8
+branch  1 taken 0
+branch  2 taken 8 (fallthrough)
+    #####:  124:        this->elems.push_back(v.elems[i]);
+    %%%%%:  124-block  0
+call    0 never executed
+call    1 never executed
+        -:  125:
+        8:  126:    return *this;
+        8:  126-block  0
+        -:  127:}
+        -:  128:
+        -:  129:template <typename TElement>
+        -:  130:void DynamicVector<TElement>::add_element(const TElement& e)
+        -:  131:{
+        -:  132:    int position = position_element(e);
+        -:  133:    if(position==-1)
+        -:  134:    {
+        -:  135://        if (this->elems.size() == this->capacity)
+        -:  136://            this->resize();
+        -:  137:        this->elems.push_back(e);
+        -:  138:        //this->size++;
+        -:  139:    }
+        -:  140:}
+        -:  141:
+        -:  142:template <typename TElement>
+        -:  143:TElement DynamicVector<TElement>::get_element(int i) const {
+        -:  144:    return this->elems[i];
+        -:  145:}
+        -:  146:
+        -:  147://template <typename TElement>
+        -:  148://void DynamicVector<TElement>::resize(double factor)
+        -:  149://{
+        -:  150://    this->capacity *= static_cast<int>(factor);
+        -:  151://
+        -:  152://    TElement* els = new TElement[this->capacity];
+        -:  153://    for (int i = 0; i < this->size; i++)
+        -:  154://        els[i] = this->elems[i];
+        -:  155://
+        -:  156://    delete[] this->elems;
+        -:  157://    this->elems = els;
+        -:  158://}
+        -:  159:
+        -:  160://template <typename TElement>
+        -:  161://std::vector<TElement> DynamicVector<TElement>::get_all_elems() const
+        -:  162://{
+        -:  163://    //for(auto i = this->elems.front(); i!= this->elems.back(); i++)
+        -:  164://      return this->elems;
+        -:  165://}
+        -:  166:
+        -:  167:template <typename TElement>
+        -:  168:int DynamicVector<TElement>::get_size() const
+        -:  169:{
+        -:  170:    return this->elems.size();
+        -:  171:}
+        -:  172:
+        -:  173:template <typename TElement>
+        -:  174:void DynamicVector<TElement>::delete_element(const TElement &e) {
+        -:  175:    int position = position_element(e);
+        -:  176:    if (position!=-1)
+        -:  177:    {
+        -:  178:        //this->elems.erase(position);
+        -:  179://
+        -:  180:        this->elems[position]=  this->elems[this->get_size()-1];
+        -:  181:        this->elems.pop_back();
+        -:  182:
+        -:  183:
+        -:  184://        for (auto i=position; i<this->get_size()-1;i++)
+        -:  185://            this->elems[i] = this->elems[i+1];
+        -:  186://        this->size--;
+        -:  187:    }
+        -:  188:}
+        -:  189:
+        -:  190:template <typename TElement>
+        -:  191:int DynamicVector<TElement>::position_element(const TElement &e) {
+        -:  192:    for (int i=0;i<this->get_size();i++)
+        -:  193:        if ((TElement) e == this->elems[i])
+        -:  194:            return i;
+        -:  195:    return -1;
+        -:  196:}
+        -:  197:
+        -:  198:template <typename TElement>
+        -:  199:void DynamicVector<TElement>::update_element(const TElement &e, const TElement& new_e) {
+        -:  200:    int position = position_element(e);
+        -:  201:    if(position!=-1)
+        -:  202:    {
+        -:  203:        this->elems[position] = new_e;
+        -:  204:    }
+        -:  205:}
+        -:  206:
+        -:  207:template <typename TElement>
+        -:  208:TElement DynamicVector<TElement>::get_element_from_position(int position) const {
+        -:  209:    return elems[position];
+        -:  210:}
+        -:  211:
+        -:  212:
+        -:  213:
+        -:  214:
+        -:  215:
+        -:  216:
+        -:  217:
+        -:  218:
+        -:  219:
+        -:  220:
+        -:  221:
+        -:  222:
+        -:  223:/*
+        -:  224:DynamicVector operator+(const TElement& e,const DynamicVector& v)
+        -:  225:{
+        -:  226:    DynamicVector temp = v;
+        -:  227:    temp.add_element(e);
+        -:  228:    return temp;
+        -:  229:}
+        -:  230:
+        -:  231:
+        -:  232:DynamicVector operator+(const DynamicVector& v, const TElement& e)
+        -:  233:{
+        -:  234:    DynamicVector temp = v;
+        -:  235:    temp.add_element(e);
+        -:  236:    return temp;
+        -:  237:}
+        -:  238: */
+        -:  239:
+        -:  240:
+        -:  241://#pragma once
+        -:  242://#include "Event.h"
+        -:  243://
+        -:  244://typedef Event TElement;
+        -:  245://
+        -:  246://class DynamicVector
+        -:  247://{
+        -:  248://private:
+        -:  249://    TElement* elems;
+        -:  250://    int size;
+        -:  251://    int capacity;
+        -:  252://
+        -:  253://public:
+        -:  254://    // default constructor for a DynamicVector
+        -:  255://    DynamicVector(int capacity = 10);
+        -:  256://
+        -:  257://    // copy constructor for a DynamicVector
+        -:  258://    DynamicVector(const DynamicVector& v);
+        -:  259://    ~DynamicVector();
+        -:  260://
+        -:  261://    // assignment operator for a DynamicVector
+        -:  262://    DynamicVector& operator=(const DynamicVector& v);
+        -:  263://
+        -:  264://    // Adds an element to the current DynamicVector.
+        -:  265://    void add_element(const TElement& e);
+        -:  266://
+        -:  267://    //Deletes an element from the current DynamicVector.
+        -:  268://    void delete_element(const TElement& e);
+        -:  269://
+        -:  270://    //Finds an element and returns its position in the DynamicVector.
+        -:  271://    int position_element(const TElement& e);
+        -:  272://
+        -:  273://    //Updates an element
+        -:  274://    void update_element(const TElement& e, const TElement& new_e);
+        -:  275://
+        -:  276://    //Gets an element from the position
+        -:  277://    //TElement get_element_from_position(int position) const;
+        -:  278://
+        -:  279://    int get_size() const;
+        -:  280://    TElement* get_all_elems() const;
+        -:  281://
+        -:  282://    //LABORATORY WORK!
+        -:  283://    DynamicVector& operator+( const TElement &e);
+        -:  284://
+        -:  285://    //TElement& operator+(const DynamicVector& v);
+        -:  286://private:
+        -:  287://    // Resizes the current DynamicVector, multiplying its capacity by a given factor (real number).
+        -:  288://    void resize(double factor = 2);
+        -:  289://};
+        -:  290://DynamicVector operator+(const TElement& e, DynamicVector& v );

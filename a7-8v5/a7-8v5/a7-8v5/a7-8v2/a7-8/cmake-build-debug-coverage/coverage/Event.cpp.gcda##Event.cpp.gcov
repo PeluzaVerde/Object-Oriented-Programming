@@ -1,0 +1,587 @@
+        -:    0:Source:D:/Downloads/Downloads/a7-8v2/a7-8/Event.cpp
+        -:    0:Graph:D:\Downloads\Downloads\a7-8v2\a7-8\cmake-build-debug-coverage\CMakeFiles\a5_6.dir\Event.cpp.gcno
+        -:    0:Data:D:\Downloads\Downloads\a7-8v2\a7-8\cmake-build-debug-coverage\CMakeFiles\a5_6.dir\Event.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "Event.h"
+        -:    2:
+function _ZN5EventC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_S5_i8Duration called 93 returned 100% blocks executed 64%
+       93:    3:Event::Event(std::string _title, std::string _description, std::string _link, int _nr_of_people,
+       93:    4:               Duration _duration) {
+       93:    4-block  0
+call    0 returned 93
+call    1 returned 93
+call    2 returned 93
+call    3 returned 93
+branch  4 taken 93 (fallthrough)
+branch  5 taken 0 (throw)
+        -:    5:
+       93:    6:    title=_title;
+       93:    6-block  0
+call    0 returned 93
+branch  1 taken 93 (fallthrough)
+branch  2 taken 0 (throw)
+       93:    7:    description= _description;
+       93:    7-block  0
+call    0 returned 93
+branch  1 taken 93 (fallthrough)
+branch  2 taken 0 (throw)
+       93:    8:    link = _link;
+       93:    8-block  0
+call    0 returned 93
+branch  1 taken 93 (fallthrough)
+branch  2 taken 0 (throw)
+       93:    9:    number_of_people = _nr_of_people;
+       93:   10:    duration = _duration;
+       93:   11:}
+       93:   11-block  0
+    $$$$$:   11-block  1
+call    0 never executed
+    $$$$$:   11-block  2
+call    1 never executed
+    $$$$$:   11-block  3
+call    2 never executed
+        -:   12:
+function _ZN5EventC2Ev called 2 returned 100% blocks executed 67%
+        2:   13:Event::Event() {
+        2:   13-block  0
+call    0 returned 2
+call    1 returned 2
+call    2 returned 2
+call    3 returned 2
+branch  4 taken 2 (fallthrough)
+branch  5 taken 0 (throw)
+        2:   14:    title="";
+        2:   14-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:   15:    description="";
+        2:   15-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:   16:    duration= Duration();
+        2:   16-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:   17:    link = "";
+        2:   17-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:   18:    number_of_people=0;
+        2:   19:}
+        2:   19-block  0
+    $$$$$:   19-block  1
+call    0 never executed
+    $$$$$:   19-block  2
+call    1 never executed
+    $$$$$:   19-block  3
+call    2 never executed
+        -:   20:
+function _ZN5EventC2ERKS_ called 1087 returned 100% blocks executed 64%
+     1087:   21:Event::Event(const Event&copy) {
+     1087:   21-block  0
+call    0 returned 1087
+call    1 returned 1087
+call    2 returned 1087
+call    3 returned 1087
+branch  4 taken 1087 (fallthrough)
+branch  5 taken 0 (throw)
+     1087:   22:    this->title = copy.title;
+     1087:   22-block  0
+call    0 returned 1087
+branch  1 taken 1087 (fallthrough)
+branch  2 taken 0 (throw)
+     1087:   23:    this->description= copy.description;
+     1087:   23-block  0
+call    0 returned 1087
+branch  1 taken 1087 (fallthrough)
+branch  2 taken 0 (throw)
+     1087:   24:    this->link = copy.link;
+     1087:   24-block  0
+call    0 returned 1087
+branch  1 taken 1087 (fallthrough)
+branch  2 taken 0 (throw)
+     1087:   25:    this->number_of_people = copy.number_of_people;
+     1087:   26:    this->duration = copy.duration;
+     1087:   27:}
+     1087:   27-block  0
+    $$$$$:   27-block  1
+call    0 never executed
+    $$$$$:   27-block  2
+call    1 never executed
+    $$$$$:   27-block  3
+call    2 never executed
+        -:   28:
+function _ZNK5Event9get_titleB5cxx11Ev called 71 returned 100% blocks executed 100%
+       71:   29:std::string Event::get_title() const {
+       71:   30:    return this->title;
+       71:   30-block  0
+call    0 returned 71
+        -:   31:}
+        -:   32:
+function _ZNK5Event15get_descriptionB5cxx11Ev called 105 returned 100% blocks executed 100%
+      105:   33:std::string Event::get_description() const {
+      105:   34:    return this->description;
+      105:   34-block  0
+call    0 returned 105
+        -:   35:}
+        -:   36:
+function _ZNK5Event8get_linkB5cxx11Ev called 103 returned 100% blocks executed 100%
+      103:   37:std::string Event::get_link() const {
+      103:   38:    return this->link;
+      103:   38-block  0
+call    0 returned 103
+        -:   39:}
+        -:   40:
+function _ZNK5Event20get_number_of_peopleEv called 53 returned 100% blocks executed 100%
+       53:   41:int Event::get_number_of_people() const {
+       53:   42:    return this->number_of_people;
+       53:   42-block  0
+        -:   43:}
+        -:   44:
+function _ZNK5Event12get_durationEv called 296 returned 100% blocks executed 100%
+      296:   45:Duration Event::get_duration() const {
+      296:   46:    return this->duration;
+      296:   46-block  0
+call    0 returned 296
+        -:   47:}
+        -:   48:
+function _ZN5Event15set_descriptionENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 1 returned 100% blocks executed 100%
+        1:   49:void Event::set_description(std::string _description) {
+        1:   50:    this->description = _description;
+        1:   50-block  0
+call    0 returned 1
+        1:   51:}
+        -:   52:
+function _ZN5Event8set_linkENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 1 returned 100% blocks executed 100%
+        1:   53:void Event::set_link(std::string _link) {
+        1:   54:    this->link  = _link;
+        1:   54-block  0
+call    0 returned 1
+        1:   55:}
+        -:   56:
+function _ZN5Event9set_titleENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 1 returned 100% blocks executed 100%
+        1:   57:void Event::set_title(std::string _title) {
+        1:   58:    this->title = _title;
+        1:   58-block  0
+call    0 returned 1
+        1:   59:}
+        -:   60:
+function _ZN5Event12set_durationE8Duration called 1 returned 100% blocks executed 100%
+        1:   61:void Event::set_duration(Duration _duration) {
+        1:   62:    this->duration = _duration;
+        1:   63:}
+        -:   64:
+function _ZN5Event20set_number_of_peopleEi called 1 returned 100% blocks executed 100%
+        1:   65:void Event::set_number_of_people(int _nr_people) {
+        1:   66:    this->number_of_people = _nr_people;
+        1:   67:}
+        -:   68:
+function _ZN5EventeqERKS_ called 729 returned 100% blocks executed 100%
+      729:   69:bool Event::operator==(const Event&t) {
+      729:   70:    if (title != t.title || t.description != description || t.link != link)
+      729:   70-block  0
+call    0 returned 729
+branch  1 taken 108 (fallthrough)
+branch  2 taken 621
+      108:   70-block  1
+call    3 returned 108
+branch  4 taken 108 (fallthrough)
+branch  5 taken 0
+      108:   70-block  2
+call    6 returned 108
+branch  7 taken 0 (fallthrough)
+branch  8 taken 108
+      621:   70-block  3
+      108:   70-block  4
+      729:   70-block  5
+branch  9 taken 621 (fallthrough)
+branch 10 taken 108
+      621:   71:        return false;
+      621:   71-block  0
+      108:   72:    return true;
+      108:   72-block  0
+        -:   73:}
+        -:   74:
+function _ZN5EventC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_S5_ called 57 returned 100% blocks executed 67%
+       57:   75:Event::Event(std::string _title, std::string _description, std::string _link) {
+       57:   75-block  0
+call    0 returned 57
+call    1 returned 57
+call    2 returned 57
+call    3 returned 57
+branch  4 taken 57 (fallthrough)
+branch  5 taken 0 (throw)
+       57:   76:    title = _title;
+       57:   76-block  0
+call    0 returned 57
+branch  1 taken 57 (fallthrough)
+branch  2 taken 0 (throw)
+       57:   77:    description = _description;
+       57:   77-block  0
+call    0 returned 57
+branch  1 taken 57 (fallthrough)
+branch  2 taken 0 (throw)
+       57:   78:    link = _link;
+       57:   78-block  0
+call    0 returned 57
+branch  1 taken 57 (fallthrough)
+branch  2 taken 0 (throw)
+       57:   79:    duration = Duration();
+       57:   79-block  0
+call    0 returned 57
+branch  1 taken 57 (fallthrough)
+branch  2 taken 0 (throw)
+       57:   80:    number_of_people = 0;
+       57:   81:}
+       57:   81-block  0
+    $$$$$:   81-block  1
+call    0 never executed
+    $$$$$:   81-block  2
+call    1 never executed
+    $$$$$:   81-block  3
+call    2 never executed
+        -:   82:
+        -:   83://std::string Event::Event_string() const{
+        -:   84://    std::string Event= "Event: " + get_title() + " description " + get_description() + " with " + std::to_string(number_of_people) + " people.\n";
+        -:   85://    return Event;
+        -:   86://}
+        -:   87:
+        -:   88:
+function _ZNK5Event12Event_stringB5cxx11Ev called 0 returned 0% blocks executed 0%
+    #####:   89:std::string Event::Event_string() const{
+    #####:   90:    std::string Event= "Event: "+ get_title() + " description " +get_description() + ". On the time and date: "+std::to_string(duration.get_hour())+":"+std::to_string(duration.get_minutes())+" "+ std::to_string(duration.get_day())+"/"+std::to_string(duration.get_month())+"/"+std::to_string(duration.get_year())+" at the following link: "+link+"\n";
+    %%%%%:   90-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   90-block  1
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   90-block  2
+call    8 never executed
+branch  9 never executed
+branch 10 never executed
+    %%%%%:   90-block  3
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   90-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:   90-block  5
+call   17 never executed
+branch 18 never executed
+branch 19 never executed
+    %%%%%:   90-block  6
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    %%%%%:   90-block  7
+call   23 never executed
+branch 24 never executed
+branch 25 never executed
+    %%%%%:   90-block  8
+call   26 never executed
+branch 27 never executed
+branch 28 never executed
+    %%%%%:   90-block  9
+call   29 never executed
+branch 30 never executed
+branch 31 never executed
+    %%%%%:   90-block 10
+call   32 never executed
+branch 33 never executed
+branch 34 never executed
+    %%%%%:   90-block 11
+call   35 never executed
+branch 36 never executed
+branch 37 never executed
+    %%%%%:   90-block 12
+call   38 never executed
+branch 39 never executed
+branch 40 never executed
+    %%%%%:   90-block 13
+call   41 never executed
+branch 42 never executed
+branch 43 never executed
+    %%%%%:   90-block 14
+call   44 never executed
+branch 45 never executed
+branch 46 never executed
+    %%%%%:   90-block 15
+call   47 never executed
+branch 48 never executed
+branch 49 never executed
+    %%%%%:   90-block 16
+call   50 never executed
+branch 51 never executed
+branch 52 never executed
+    %%%%%:   90-block 17
+call   53 never executed
+branch 54 never executed
+branch 55 never executed
+    %%%%%:   90-block 18
+call   56 never executed
+branch 57 never executed
+branch 58 never executed
+    %%%%%:   90-block 19
+call   59 never executed
+branch 60 never executed
+branch 61 never executed
+    %%%%%:   90-block 20
+call   62 never executed
+branch 63 never executed
+branch 64 never executed
+    %%%%%:   90-block 21
+call   65 never executed
+branch 66 never executed
+branch 67 never executed
+    %%%%%:   90-block 22
+call   68 never executed
+branch 69 never executed
+branch 70 never executed
+    %%%%%:   90-block 23
+call   71 never executed
+branch 72 never executed
+branch 73 never executed
+    %%%%%:   90-block 24
+call   74 never executed
+branch 75 never executed
+branch 76 never executed
+    %%%%%:   90-block 25
+call   77 never executed
+branch 78 never executed
+branch 79 never executed
+call   80 never executed
+call   81 never executed
+call   82 never executed
+call   83 never executed
+call   84 never executed
+call   85 never executed
+call   86 never executed
+call   87 never executed
+call   88 never executed
+call   89 never executed
+call   90 never executed
+call   91 never executed
+call   92 never executed
+call   93 never executed
+call   94 never executed
+call   95 never executed
+call   96 never executed
+call   97 never executed
+call   98 never executed
+call   99 never executed
+call   100 never executed
+    $$$$$:   90-block 26
+    $$$$$:   90-block 27
+    $$$$$:   90-block 28
+    $$$$$:   90-block 29
+    $$$$$:   90-block 30
+    $$$$$:   90-block 31
+    $$$$$:   90-block 32
+    $$$$$:   90-block 33
+    $$$$$:   90-block 34
+    $$$$$:   90-block 35
+    $$$$$:   90-block 36
+    $$$$$:   90-block 37
+    $$$$$:   90-block 38
+    $$$$$:   90-block 39
+    $$$$$:   90-block 40
+    $$$$$:   90-block 41
+    $$$$$:   90-block 42
+    $$$$$:   90-block 43
+    $$$$$:   90-block 44
+    $$$$$:   90-block 45
+    $$$$$:   90-block 46
+    #####:   91:    return Event;
+    %%%%%:   91-block  0
+        -:   92:}
+        -:   93:
+        -:   94:
+function _ZNK5Event17Event_long_stringB5cxx11Ev called 1 returned 100% blocks executed 45%
+        1:   95:std::string Event::Event_long_string() const {
+        2:   96:    std::string Event= "Event: "+ get_title() + " description " +get_description() + ". On the time and date: "+std::to_string(duration.get_hour())+":"+std::to_string(duration.get_minutes())+" "+ std::to_string(duration.get_day())+"/"+std::to_string(duration.get_month())+"/"+std::to_string(duration.get_year())+" with "+std::to_string(number_of_people)+" people.\n";
+        1:   96-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   96-block  1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   96-block  2
+call    7 returned 1
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0 (throw)
+        1:   96-block  3
+call   10 returned 1
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0 (throw)
+        1:   96-block  4
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   96-block  5
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   96-block  6
+call   19 returned 1
+branch 20 taken 1 (fallthrough)
+branch 21 taken 0 (throw)
+        1:   96-block  7
+call   22 returned 1
+branch 23 taken 1 (fallthrough)
+branch 24 taken 0 (throw)
+        1:   96-block  8
+call   25 returned 1
+branch 26 taken 1 (fallthrough)
+branch 27 taken 0 (throw)
+        1:   96-block  9
+call   28 returned 1
+branch 29 taken 1 (fallthrough)
+branch 30 taken 0 (throw)
+        1:   96-block 10
+call   31 returned 1
+branch 32 taken 1 (fallthrough)
+branch 33 taken 0 (throw)
+        1:   96-block 11
+call   34 returned 1
+branch 35 taken 1 (fallthrough)
+branch 36 taken 0 (throw)
+        1:   96-block 12
+call   37 returned 1
+branch 38 taken 1 (fallthrough)
+branch 39 taken 0 (throw)
+        1:   96-block 13
+call   40 returned 1
+branch 41 taken 1 (fallthrough)
+branch 42 taken 0 (throw)
+        1:   96-block 14
+call   43 returned 1
+branch 44 taken 1 (fallthrough)
+branch 45 taken 0 (throw)
+        1:   96-block 15
+call   46 returned 1
+branch 47 taken 1 (fallthrough)
+branch 48 taken 0 (throw)
+        1:   96-block 16
+call   49 returned 1
+branch 50 taken 1 (fallthrough)
+branch 51 taken 0 (throw)
+        1:   96-block 17
+call   52 returned 1
+branch 53 taken 1 (fallthrough)
+branch 54 taken 0 (throw)
+        1:   96-block 18
+call   55 returned 1
+branch 56 taken 1 (fallthrough)
+branch 57 taken 0 (throw)
+        1:   96-block 19
+call   58 returned 1
+branch 59 taken 1 (fallthrough)
+branch 60 taken 0 (throw)
+        1:   96-block 20
+call   61 returned 1
+branch 62 taken 1 (fallthrough)
+branch 63 taken 0 (throw)
+        1:   96-block 21
+call   64 returned 1
+branch 65 taken 1 (fallthrough)
+branch 66 taken 0 (throw)
+        1:   96-block 22
+call   67 returned 1
+branch 68 taken 1 (fallthrough)
+branch 69 taken 0 (throw)
+        1:   96-block 23
+call   70 returned 1
+branch 71 taken 1 (fallthrough)
+branch 72 taken 0 (throw)
+        1:   96-block 24
+call   73 returned 1
+branch 74 taken 1 (fallthrough)
+branch 75 taken 0 (throw)
+        1:   96-block 25
+call   76 returned 1
+branch 77 taken 1 (fallthrough)
+branch 78 taken 0 (throw)
+        1:   96-block 26
+call   79 returned 1
+branch 80 taken 1 (fallthrough)
+branch 81 taken 0 (throw)
+        1:   96-block 27
+call   82 returned 1
+branch 83 taken 1 (fallthrough)
+branch 84 taken 0 (throw)
+call   85 returned 1
+call   86 returned 1
+call   87 returned 1
+call   88 returned 1
+call   89 returned 1
+call   90 returned 1
+call   91 returned 1
+call   92 returned 1
+call   93 returned 1
+call   94 returned 1
+call   95 returned 1
+call   96 returned 1
+call   97 returned 1
+call   98 returned 1
+call   99 returned 1
+call   100 returned 1
+call   101 returned 1
+call   102 returned 1
+call   103 returned 1
+call   104 returned 1
+call   105 returned 1
+call   106 returned 1
+    $$$$$:   96-block 28
+    $$$$$:   96-block 29
+    $$$$$:   96-block 30
+    $$$$$:   96-block 31
+    $$$$$:   96-block 32
+    $$$$$:   96-block 33
+    $$$$$:   96-block 34
+    $$$$$:   96-block 35
+    $$$$$:   96-block 36
+    $$$$$:   96-block 37
+    $$$$$:   96-block 38
+    $$$$$:   96-block 39
+    $$$$$:   96-block 40
+    $$$$$:   96-block 41
+    $$$$$:   96-block 42
+    $$$$$:   96-block 43
+    $$$$$:   96-block 44
+    $$$$$:   96-block 45
+    $$$$$:   96-block 46
+    $$$$$:   96-block 47
+    $$$$$:   96-block 48
+    $$$$$:   96-block 49
+        1:   97:    return Event;
+        1:   97-block  0
+        -:   98:}
+        -:   99:
+function _ZNK5Event4playEv called 0 returned 0% blocks executed 0%
+    #####:  100:void Event::play() const {
+    #####:  101:    ShellExecuteA(NULL, NULL, "opera.exe", this->get_link().c_str(), NULL, SW_SHOWMAXIMIZED);
+    %%%%%:  101-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  101-block  1
+call    5 never executed
+    $$$$$:  101-block  2
+call    6 never executed
+    #####:  102:}

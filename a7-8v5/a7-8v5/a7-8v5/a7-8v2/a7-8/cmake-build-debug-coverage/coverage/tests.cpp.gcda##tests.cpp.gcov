@@ -1,0 +1,3058 @@
+        -:    0:Source:D:/Downloads/Downloads/a7-8v2/a7-8/tests.cpp
+        -:    0:Graph:D:\Downloads\Downloads\a7-8v2\a7-8\cmake-build-debug-coverage\CMakeFiles\a5_6.dir\tests.cpp.gcno
+        -:    0:Data:D:\Downloads\Downloads\a7-8v2\a7-8\cmake-build-debug-coverage\CMakeFiles\a5_6.dir\tests.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by HP on 3/23/2022.
+        -:    3://
+        -:    4:
+        -:    5:#include "tests.h"
+        -:    6://#include <stdlib.h>
+        -:    7:#include <cassert>
+        -:    8:#include "Repo.h"
+        -:    9:#include "Controller.h"
+        -:   10:#include <iostream>
+        -:   11:
+        -:   12:
+        -:   13:
+function _Z5testsv called 1 returned 100% blocks executed 45%
+        1:   14:void tests() {
+        1:   15:    Repo repository = Repo();
+        1:   15-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   16:    Controller controller = Controller(repository);
+        1:   16-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   16-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+    $$$$$:   16-block  2
+        -:   17:
+       1*:   18:    assert(controller.add_Event_to_repo("title_", "description_", "link_", Duration(1,2, 2001, 4, 5), 6)==true);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   18-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   18-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   18-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   18-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   18-block  4
+branch 18 taken 0 (fallthrough)
+branch 19 taken 1
+    %%%%%:   18-block  5
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+        1:   18-block  6
+    %%%%%:   18-block  7
+        1:   18-block  8
+branch 23 taken 1 (fallthrough)
+branch 24 taken 0
+        1:   18-block  9
+call   25 returned 1
+        1:   18-block 10
+branch 26 taken 1 (fallthrough)
+branch 27 taken 0
+        1:   18-block 11
+call   28 returned 1
+        1:   18-block 12
+branch 29 taken 1 (fallthrough)
+branch 30 taken 0
+        1:   18-block 13
+call   31 returned 1
+        1:   18-block 14
+branch 32 taken 1 (fallthrough)
+branch 33 taken 0
+        1:   18-block 15
+call   34 returned 1
+        1:   18-block 16
+branch 35 taken 1 (fallthrough)
+branch 36 taken 0
+        1:   18-block 17
+call   37 returned 1
+        1:   18-block 18
+branch 38 taken 1 (fallthrough)
+branch 39 taken 0
+        1:   18-block 19
+call   40 returned 1
+    $$$$$:   18-block 20
+branch 41 never executed
+branch 42 never executed
+    $$$$$:   18-block 21
+call   43 never executed
+    $$$$$:   18-block 22
+    $$$$$:   18-block 23
+branch 44 never executed
+branch 45 never executed
+    $$$$$:   18-block 24
+call   46 never executed
+    $$$$$:   18-block 25
+    $$$$$:   18-block 26
+branch 47 never executed
+branch 48 never executed
+    $$$$$:   18-block 27
+call   49 never executed
+    $$$$$:   18-block 28
+    $$$$$:   18-block 29
+branch 50 never executed
+branch 51 never executed
+    $$$$$:   18-block 30
+call   52 never executed
+    $$$$$:   18-block 31
+    $$$$$:   18-block 32
+branch 53 never executed
+branch 54 never executed
+    $$$$$:   18-block 33
+call   55 never executed
+    $$$$$:   18-block 34
+    $$$$$:   18-block 35
+branch 56 never executed
+branch 57 never executed
+    $$$$$:   18-block 36
+call   58 never executed
+    $$$$$:   18-block 37
+    $$$$$:   18-block 38
+       1*:   19:    assert(controller.add_Event_to_repo("title_", "description_", "link_", Duration(1,2, 2001, 4, 5), 6)==false);
+        1:   19-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   19-block  1
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   19-block  2
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   19-block  3
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   19-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   19-block  5
+branch 18 taken 0 (fallthrough)
+branch 19 taken 1
+    %%%%%:   19-block  6
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+        1:   19-block  7
+    %%%%%:   19-block  8
+        1:   19-block  9
+branch 23 taken 1 (fallthrough)
+branch 24 taken 0
+        1:   19-block 10
+call   25 returned 1
+        1:   19-block 11
+branch 26 taken 1 (fallthrough)
+branch 27 taken 0
+        1:   19-block 12
+call   28 returned 1
+        1:   19-block 13
+branch 29 taken 1 (fallthrough)
+branch 30 taken 0
+        1:   19-block 14
+call   31 returned 1
+        1:   19-block 15
+branch 32 taken 1 (fallthrough)
+branch 33 taken 0
+        1:   19-block 16
+call   34 returned 1
+        1:   19-block 17
+branch 35 taken 1 (fallthrough)
+branch 36 taken 0
+        1:   19-block 18
+call   37 returned 1
+        1:   19-block 19
+branch 38 taken 1 (fallthrough)
+branch 39 taken 0
+        1:   19-block 20
+call   40 returned 1
+    $$$$$:   19-block 21
+branch 41 never executed
+branch 42 never executed
+    $$$$$:   19-block 22
+call   43 never executed
+    $$$$$:   19-block 23
+    $$$$$:   19-block 24
+branch 44 never executed
+branch 45 never executed
+    $$$$$:   19-block 25
+call   46 never executed
+    $$$$$:   19-block 26
+    $$$$$:   19-block 27
+branch 47 never executed
+branch 48 never executed
+    $$$$$:   19-block 28
+call   49 never executed
+    $$$$$:   19-block 29
+    $$$$$:   19-block 30
+branch 50 never executed
+branch 51 never executed
+    $$$$$:   19-block 31
+call   52 never executed
+    $$$$$:   19-block 32
+    $$$$$:   19-block 33
+branch 53 never executed
+branch 54 never executed
+    $$$$$:   19-block 34
+call   55 never executed
+    $$$$$:   19-block 35
+    $$$$$:   19-block 36
+branch 56 never executed
+branch 57 never executed
+    $$$$$:   19-block 37
+call   58 never executed
+    $$$$$:   19-block 38
+    $$$$$:   19-block 39
+       1*:   20:    assert(controller.update_Event_in_repo("title_","description_","link_", "title_final","description_final","link_final",Duration(1, 2, 2222, 3, 4), 7)==true);
+        1:   20-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   20-block  1
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   20-block  2
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   20-block  3
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   20-block  4
+call   15 returned 1
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   20-block  5
+call   19 returned 1
+call   20 returned 1
+branch 21 taken 1 (fallthrough)
+branch 22 taken 0 (throw)
+        1:   20-block  6
+call   23 returned 1
+call   24 returned 1
+branch 25 taken 1 (fallthrough)
+branch 26 taken 0 (throw)
+        1:   20-block  7
+call   27 returned 1
+branch 28 taken 1 (fallthrough)
+branch 29 taken 0 (throw)
+        1:   20-block  8
+branch 30 taken 0 (fallthrough)
+branch 31 taken 1
+    %%%%%:   20-block  9
+call   32 never executed
+branch 33 never executed
+branch 34 never executed
+        1:   20-block 10
+    %%%%%:   20-block 11
+        1:   20-block 12
+branch 35 taken 1 (fallthrough)
+branch 36 taken 0
+        1:   20-block 13
+call   37 returned 1
+        1:   20-block 14
+branch 38 taken 1 (fallthrough)
+branch 39 taken 0
+        1:   20-block 15
+call   40 returned 1
+        1:   20-block 16
+branch 41 taken 1 (fallthrough)
+branch 42 taken 0
+        1:   20-block 17
+call   43 returned 1
+        1:   20-block 18
+branch 44 taken 1 (fallthrough)
+branch 45 taken 0
+        1:   20-block 19
+call   46 returned 1
+        1:   20-block 20
+branch 47 taken 1 (fallthrough)
+branch 48 taken 0
+        1:   20-block 21
+call   49 returned 1
+        1:   20-block 22
+branch 50 taken 1 (fallthrough)
+branch 51 taken 0
+        1:   20-block 23
+call   52 returned 1
+        1:   20-block 24
+branch 53 taken 1 (fallthrough)
+branch 54 taken 0
+        1:   20-block 25
+call   55 returned 1
+        1:   20-block 26
+branch 56 taken 1 (fallthrough)
+branch 57 taken 0
+        1:   20-block 27
+call   58 returned 1
+        1:   20-block 28
+branch 59 taken 1 (fallthrough)
+branch 60 taken 0
+        1:   20-block 29
+call   61 returned 1
+        1:   20-block 30
+branch 62 taken 1 (fallthrough)
+branch 63 taken 0
+        1:   20-block 31
+call   64 returned 1
+        1:   20-block 32
+branch 65 taken 1 (fallthrough)
+branch 66 taken 0
+        1:   20-block 33
+call   67 returned 1
+        1:   20-block 34
+branch 68 taken 1 (fallthrough)
+branch 69 taken 0
+        1:   20-block 35
+call   70 returned 1
+    $$$$$:   20-block 36
+branch 71 never executed
+branch 72 never executed
+    $$$$$:   20-block 37
+call   73 never executed
+    $$$$$:   20-block 38
+    $$$$$:   20-block 39
+branch 74 never executed
+branch 75 never executed
+    $$$$$:   20-block 40
+call   76 never executed
+    $$$$$:   20-block 41
+    $$$$$:   20-block 42
+branch 77 never executed
+branch 78 never executed
+    $$$$$:   20-block 43
+call   79 never executed
+    $$$$$:   20-block 44
+    $$$$$:   20-block 45
+branch 80 never executed
+branch 81 never executed
+    $$$$$:   20-block 46
+call   82 never executed
+    $$$$$:   20-block 47
+    $$$$$:   20-block 48
+branch 83 never executed
+branch 84 never executed
+    $$$$$:   20-block 49
+call   85 never executed
+    $$$$$:   20-block 50
+    $$$$$:   20-block 51
+branch 86 never executed
+branch 87 never executed
+    $$$$$:   20-block 52
+call   88 never executed
+    $$$$$:   20-block 53
+    $$$$$:   20-block 54
+branch 89 never executed
+branch 90 never executed
+    $$$$$:   20-block 55
+call   91 never executed
+    $$$$$:   20-block 56
+    $$$$$:   20-block 57
+branch 92 never executed
+branch 93 never executed
+    $$$$$:   20-block 58
+call   94 never executed
+    $$$$$:   20-block 59
+    $$$$$:   20-block 60
+branch 95 never executed
+branch 96 never executed
+    $$$$$:   20-block 61
+call   97 never executed
+    $$$$$:   20-block 62
+    $$$$$:   20-block 63
+branch 98 never executed
+branch 99 never executed
+    $$$$$:   20-block 64
+call   100 never executed
+    $$$$$:   20-block 65
+    $$$$$:   20-block 66
+branch 101 never executed
+branch 102 never executed
+    $$$$$:   20-block 67
+call   103 never executed
+    $$$$$:   20-block 68
+    $$$$$:   20-block 69
+branch 104 never executed
+branch 105 never executed
+    $$$$$:   20-block 70
+call   106 never executed
+    $$$$$:   20-block 71
+    $$$$$:   20-block 72
+       1*:   21:    assert(controller.update_Event_in_repo("title_","description_","link_", "title_final","description_final","link_final",Duration(1, 2, 2222, 3, 4), 7)==false);
+        1:   21-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   21-block  1
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   21-block  2
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   21-block  3
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   21-block  4
+call   15 returned 1
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   21-block  5
+call   19 returned 1
+call   20 returned 1
+branch 21 taken 1 (fallthrough)
+branch 22 taken 0 (throw)
+        1:   21-block  6
+call   23 returned 1
+call   24 returned 1
+branch 25 taken 1 (fallthrough)
+branch 26 taken 0 (throw)
+        1:   21-block  7
+call   27 returned 1
+branch 28 taken 1 (fallthrough)
+branch 29 taken 0 (throw)
+        1:   21-block  8
+branch 30 taken 0 (fallthrough)
+branch 31 taken 1
+    %%%%%:   21-block  9
+call   32 never executed
+branch 33 never executed
+branch 34 never executed
+        1:   21-block 10
+    %%%%%:   21-block 11
+        1:   21-block 12
+branch 35 taken 1 (fallthrough)
+branch 36 taken 0
+        1:   21-block 13
+call   37 returned 1
+        1:   21-block 14
+branch 38 taken 1 (fallthrough)
+branch 39 taken 0
+        1:   21-block 15
+call   40 returned 1
+        1:   21-block 16
+branch 41 taken 1 (fallthrough)
+branch 42 taken 0
+        1:   21-block 17
+call   43 returned 1
+        1:   21-block 18
+branch 44 taken 1 (fallthrough)
+branch 45 taken 0
+        1:   21-block 19
+call   46 returned 1
+        1:   21-block 20
+branch 47 taken 1 (fallthrough)
+branch 48 taken 0
+        1:   21-block 21
+call   49 returned 1
+        1:   21-block 22
+branch 50 taken 1 (fallthrough)
+branch 51 taken 0
+        1:   21-block 23
+call   52 returned 1
+        1:   21-block 24
+branch 53 taken 1 (fallthrough)
+branch 54 taken 0
+        1:   21-block 25
+call   55 returned 1
+        1:   21-block 26
+branch 56 taken 1 (fallthrough)
+branch 57 taken 0
+        1:   21-block 27
+call   58 returned 1
+        1:   21-block 28
+branch 59 taken 1 (fallthrough)
+branch 60 taken 0
+        1:   21-block 29
+call   61 returned 1
+        1:   21-block 30
+branch 62 taken 1 (fallthrough)
+branch 63 taken 0
+        1:   21-block 31
+call   64 returned 1
+        1:   21-block 32
+branch 65 taken 1 (fallthrough)
+branch 66 taken 0
+        1:   21-block 33
+call   67 returned 1
+        1:   21-block 34
+branch 68 taken 1 (fallthrough)
+branch 69 taken 0
+        1:   21-block 35
+call   70 returned 1
+    $$$$$:   21-block 36
+branch 71 never executed
+branch 72 never executed
+    $$$$$:   21-block 37
+call   73 never executed
+    $$$$$:   21-block 38
+    $$$$$:   21-block 39
+branch 74 never executed
+branch 75 never executed
+    $$$$$:   21-block 40
+call   76 never executed
+    $$$$$:   21-block 41
+    $$$$$:   21-block 42
+branch 77 never executed
+branch 78 never executed
+    $$$$$:   21-block 43
+call   79 never executed
+    $$$$$:   21-block 44
+    $$$$$:   21-block 45
+branch 80 never executed
+branch 81 never executed
+    $$$$$:   21-block 46
+call   82 never executed
+    $$$$$:   21-block 47
+    $$$$$:   21-block 48
+branch 83 never executed
+branch 84 never executed
+    $$$$$:   21-block 49
+call   85 never executed
+    $$$$$:   21-block 50
+    $$$$$:   21-block 51
+branch 86 never executed
+branch 87 never executed
+    $$$$$:   21-block 52
+call   88 never executed
+    $$$$$:   21-block 53
+    $$$$$:   21-block 54
+branch 89 never executed
+branch 90 never executed
+    $$$$$:   21-block 55
+call   91 never executed
+    $$$$$:   21-block 56
+    $$$$$:   21-block 57
+branch 92 never executed
+branch 93 never executed
+    $$$$$:   21-block 58
+call   94 never executed
+    $$$$$:   21-block 59
+    $$$$$:   21-block 60
+branch 95 never executed
+branch 96 never executed
+    $$$$$:   21-block 61
+call   97 never executed
+    $$$$$:   21-block 62
+    $$$$$:   21-block 63
+branch 98 never executed
+branch 99 never executed
+    $$$$$:   21-block 64
+call   100 never executed
+    $$$$$:   21-block 65
+    $$$$$:   21-block 66
+branch 101 never executed
+branch 102 never executed
+    $$$$$:   21-block 67
+call   103 never executed
+    $$$$$:   21-block 68
+    $$$$$:   21-block 69
+branch 104 never executed
+branch 105 never executed
+    $$$$$:   21-block 70
+call   106 never executed
+    $$$$$:   21-block 71
+    $$$$$:   21-block 72
+       1*:   22:    assert(controller.add_Event_to_repo("title_", "description_", "link_", Duration(1,2, 2001, 4, 5), 6)==true);
+        1:   22-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   22-block  1
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   22-block  2
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   22-block  3
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   22-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   22-block  5
+branch 18 taken 0 (fallthrough)
+branch 19 taken 1
+    %%%%%:   22-block  6
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+        1:   22-block  7
+    %%%%%:   22-block  8
+        1:   22-block  9
+branch 23 taken 1 (fallthrough)
+branch 24 taken 0
+        1:   22-block 10
+call   25 returned 1
+        1:   22-block 11
+branch 26 taken 1 (fallthrough)
+branch 27 taken 0
+        1:   22-block 12
+call   28 returned 1
+        1:   22-block 13
+branch 29 taken 1 (fallthrough)
+branch 30 taken 0
+        1:   22-block 14
+call   31 returned 1
+        1:   22-block 15
+branch 32 taken 1 (fallthrough)
+branch 33 taken 0
+        1:   22-block 16
+call   34 returned 1
+        1:   22-block 17
+branch 35 taken 1 (fallthrough)
+branch 36 taken 0
+        1:   22-block 18
+call   37 returned 1
+        1:   22-block 19
+branch 38 taken 1 (fallthrough)
+branch 39 taken 0
+        1:   22-block 20
+call   40 returned 1
+    $$$$$:   22-block 21
+branch 41 never executed
+branch 42 never executed
+    $$$$$:   22-block 22
+call   43 never executed
+    $$$$$:   22-block 23
+    $$$$$:   22-block 24
+branch 44 never executed
+branch 45 never executed
+    $$$$$:   22-block 25
+call   46 never executed
+    $$$$$:   22-block 26
+    $$$$$:   22-block 27
+branch 47 never executed
+branch 48 never executed
+    $$$$$:   22-block 28
+call   49 never executed
+    $$$$$:   22-block 29
+    $$$$$:   22-block 30
+branch 50 never executed
+branch 51 never executed
+    $$$$$:   22-block 31
+call   52 never executed
+    $$$$$:   22-block 32
+    $$$$$:   22-block 33
+branch 53 never executed
+branch 54 never executed
+    $$$$$:   22-block 34
+call   55 never executed
+    $$$$$:   22-block 35
+    $$$$$:   22-block 36
+branch 56 never executed
+branch 57 never executed
+    $$$$$:   22-block 37
+call   58 never executed
+    $$$$$:   22-block 38
+    $$$$$:   22-block 39
+       1*:   23:    assert(controller.delete_Event_from_repo("title_", "description_", "link_")==true);
+        1:   23-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   23-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   23-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   23-block  3
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   23-block  4
+branch 15 taken 0 (fallthrough)
+branch 16 taken 1
+    %%%%%:   23-block  5
+call   17 never executed
+branch 18 never executed
+branch 19 never executed
+        1:   23-block  6
+    %%%%%:   23-block  7
+        1:   23-block  8
+branch 20 taken 1 (fallthrough)
+branch 21 taken 0
+        1:   23-block  9
+call   22 returned 1
+        1:   23-block 10
+branch 23 taken 1 (fallthrough)
+branch 24 taken 0
+        1:   23-block 11
+call   25 returned 1
+        1:   23-block 12
+branch 26 taken 1 (fallthrough)
+branch 27 taken 0
+        1:   23-block 13
+call   28 returned 1
+        1:   23-block 14
+branch 29 taken 1 (fallthrough)
+branch 30 taken 0
+        1:   23-block 15
+call   31 returned 1
+        1:   23-block 16
+branch 32 taken 1 (fallthrough)
+branch 33 taken 0
+        1:   23-block 17
+call   34 returned 1
+        1:   23-block 18
+branch 35 taken 1 (fallthrough)
+branch 36 taken 0
+        1:   23-block 19
+call   37 returned 1
+    $$$$$:   23-block 20
+branch 38 never executed
+branch 39 never executed
+    $$$$$:   23-block 21
+call   40 never executed
+    $$$$$:   23-block 22
+    $$$$$:   23-block 23
+branch 41 never executed
+branch 42 never executed
+    $$$$$:   23-block 24
+call   43 never executed
+    $$$$$:   23-block 25
+    $$$$$:   23-block 26
+branch 44 never executed
+branch 45 never executed
+    $$$$$:   23-block 27
+call   46 never executed
+    $$$$$:   23-block 28
+    $$$$$:   23-block 29
+branch 47 never executed
+branch 48 never executed
+    $$$$$:   23-block 30
+call   49 never executed
+    $$$$$:   23-block 31
+    $$$$$:   23-block 32
+branch 50 never executed
+branch 51 never executed
+    $$$$$:   23-block 33
+call   52 never executed
+    $$$$$:   23-block 34
+    $$$$$:   23-block 35
+branch 53 never executed
+branch 54 never executed
+    $$$$$:   23-block 36
+call   55 never executed
+    $$$$$:   23-block 37
+       1*:   24:    assert(controller.delete_Event_from_repo("title_", "description_", "link_")==false);
+        1:   24-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   24-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   24-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   24-block  3
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   24-block  4
+branch 15 taken 0 (fallthrough)
+branch 16 taken 1
+    %%%%%:   24-block  5
+call   17 never executed
+branch 18 never executed
+branch 19 never executed
+        1:   24-block  6
+    %%%%%:   24-block  7
+        1:   24-block  8
+branch 20 taken 1 (fallthrough)
+branch 21 taken 0
+        1:   24-block  9
+call   22 returned 1
+        1:   24-block 10
+branch 23 taken 1 (fallthrough)
+branch 24 taken 0
+        1:   24-block 11
+call   25 returned 1
+        1:   24-block 12
+branch 26 taken 1 (fallthrough)
+branch 27 taken 0
+        1:   24-block 13
+call   28 returned 1
+        1:   24-block 14
+branch 29 taken 1 (fallthrough)
+branch 30 taken 0
+        1:   24-block 15
+call   31 returned 1
+        1:   24-block 16
+branch 32 taken 1 (fallthrough)
+branch 33 taken 0
+        1:   24-block 17
+call   34 returned 1
+        1:   24-block 18
+branch 35 taken 1 (fallthrough)
+branch 36 taken 0
+        1:   24-block 19
+call   37 returned 1
+    $$$$$:   24-block 20
+branch 38 never executed
+branch 39 never executed
+    $$$$$:   24-block 21
+call   40 never executed
+    $$$$$:   24-block 22
+    $$$$$:   24-block 23
+branch 41 never executed
+branch 42 never executed
+    $$$$$:   24-block 24
+call   43 never executed
+    $$$$$:   24-block 25
+    $$$$$:   24-block 26
+branch 44 never executed
+branch 45 never executed
+    $$$$$:   24-block 27
+call   46 never executed
+    $$$$$:   24-block 28
+    $$$$$:   24-block 29
+branch 47 never executed
+branch 48 never executed
+    $$$$$:   24-block 30
+call   49 never executed
+    $$$$$:   24-block 31
+    $$$$$:   24-block 32
+branch 50 never executed
+branch 51 never executed
+    $$$$$:   24-block 33
+call   52 never executed
+    $$$$$:   24-block 34
+    $$$$$:   24-block 35
+branch 53 never executed
+branch 54 never executed
+    $$$$$:   24-block 36
+call   55 never executed
+    $$$$$:   24-block 37
+        -:   25:    //assert(controller.get_all_Events()==controller.get_all_Events());
+       1*:   26:    assert(controller.get_number_of_Events()==1);
+        1:   26-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   26-block  1
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    %%%%%:   26-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+        1:   26-block  3
+    %%%%%:   26-block  4
+        1:   27:    Duration d;
+        1:   27-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   28:    d.set_day(1);
+        1:   28-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   29:    d.set_hour(1);
+        1:   29-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   30:    d.set_minutes(1);
+        1:   30-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   31:    d.set_month(1);
+        1:   31-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   32:    d.set_year(2002);
+        1:   32-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   33:    assert(d.get_day()==1);
+        1:   33-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   33-block  1
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    %%%%%:   33-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+        1:   33-block  3
+    %%%%%:   33-block  4
+       1*:   34:    assert(d.get_month()==1);
+        1:   34-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   34-block  1
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    %%%%%:   34-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+        1:   34-block  3
+    %%%%%:   34-block  4
+       1*:   35:    assert(d.get_year()==2002);
+        1:   35-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   35-block  1
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    %%%%%:   35-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+        1:   35-block  3
+    %%%%%:   35-block  4
+       1*:   36:    assert(d.get_minutes()==1);
+        1:   36-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   36-block  1
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    %%%%%:   36-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+        1:   36-block  3
+    %%%%%:   36-block  4
+       1*:   37:    assert(d.get_hour()==1);
+        1:   37-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   37-block  1
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    %%%%%:   37-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+        1:   37-block  3
+    %%%%%:   37-block  4
+        -:   38:
+        1:   39:   controller.add_Event_to_repo("Excursie Adeona cabana ciubaru verde", "Munte 200lei","https://www.youtube.com/watch?v=p9j3TKhOn30",Duration(7,30,2007,6,30), 10);
+        1:   39-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   39-block  1
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   39-block  2
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   39-block  3
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   39-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   39-block  5
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   39-block  6
+call   24 never executed
+    $$$$$:   39-block  7
+    $$$$$:   39-block  8
+call   25 never executed
+    $$$$$:   39-block  9
+    $$$$$:   39-block 10
+call   26 never executed
+    $$$$$:   39-block 11
+    $$$$$:   39-block 12
+call   27 never executed
+    $$$$$:   39-block 13
+    $$$$$:   39-block 14
+call   28 never executed
+    $$$$$:   39-block 15
+    $$$$$:   39-block 16
+call   29 never executed
+    $$$$$:   39-block 17
+    $$$$$:   39-block 18
+        1:   40:    controller.add_Event_to_repo("Qrowozon", "YT", "https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(6, 15,2022,12,24), 1);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   40-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   40-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   40-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   40-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   40-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   40-block  5
+call   24 never executed
+    $$$$$:   40-block  6
+    $$$$$:   40-block  7
+call   25 never executed
+    $$$$$:   40-block  8
+    $$$$$:   40-block  9
+call   26 never executed
+    $$$$$:   40-block 10
+    $$$$$:   40-block 11
+call   27 never executed
+    $$$$$:   40-block 12
+    $$$$$:   40-block 13
+call   28 never executed
+    $$$$$:   40-block 14
+    $$$$$:   40-block 15
+call   29 never executed
+    $$$$$:   40-block 16
+    $$$$$:   40-block 17
+        1:   41:    controller.add_Event_to_repo("Animalia", "zoo", "https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(4,58,2022,7,5), 10);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   41-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   41-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   41-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   41-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   41-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   41-block  5
+call   24 never executed
+    $$$$$:   41-block  6
+    $$$$$:   41-block  7
+call   25 never executed
+    $$$$$:   41-block  8
+    $$$$$:   41-block  9
+call   26 never executed
+    $$$$$:   41-block 10
+    $$$$$:   41-block 11
+call   27 never executed
+    $$$$$:   41-block 12
+    $$$$$:   41-block 13
+call   28 never executed
+    $$$$$:   41-block 14
+    $$$$$:   41-block 15
+call   29 never executed
+    $$$$$:   41-block 16
+    $$$$$:   41-block 17
+       1*:   42:    controller.add_Event_to_repo("Amongus", "Danisus", "https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(4,54,2021,9,20), 9);assert(controller.add_Event_to_repo("title_", "description_", "link_", Duration(1,2, 2001, 4, 5), 6)==true);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   42-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   42-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   42-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   42-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   42-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+branch 25 taken 1 (fallthrough)
+branch 26 taken 0 (throw)
+        1:   42-block  5
+call   27 returned 1
+call   28 returned 1
+branch 29 taken 1 (fallthrough)
+branch 30 taken 0 (throw)
+        1:   42-block  6
+call   31 returned 1
+call   32 returned 1
+branch 33 taken 1 (fallthrough)
+branch 34 taken 0 (throw)
+        1:   42-block  7
+call   35 returned 1
+call   36 returned 1
+branch 37 taken 1 (fallthrough)
+branch 38 taken 0 (throw)
+        1:   42-block  8
+call   39 returned 1
+branch 40 taken 1 (fallthrough)
+branch 41 taken 0 (throw)
+        1:   42-block  9
+branch 42 taken 0 (fallthrough)
+branch 43 taken 1
+    %%%%%:   42-block 10
+call   44 never executed
+branch 45 never executed
+branch 46 never executed
+        1:   42-block 11
+    %%%%%:   42-block 12
+        1:   42-block 13
+branch 47 taken 1 (fallthrough)
+branch 48 taken 0
+        1:   42-block 14
+call   49 returned 1
+        1:   42-block 15
+branch 50 taken 1 (fallthrough)
+branch 51 taken 0
+        1:   42-block 16
+call   52 returned 1
+        1:   42-block 17
+branch 53 taken 1 (fallthrough)
+branch 54 taken 0
+        1:   42-block 18
+call   55 returned 1
+        1:   42-block 19
+branch 56 taken 1 (fallthrough)
+branch 57 taken 0
+        1:   42-block 20
+call   58 returned 1
+        1:   42-block 21
+branch 59 taken 1 (fallthrough)
+branch 60 taken 0
+        1:   42-block 22
+call   61 returned 1
+        1:   42-block 23
+branch 62 taken 1 (fallthrough)
+branch 63 taken 0
+        1:   42-block 24
+call   64 returned 1
+    $$$$$:   42-block 25
+call   65 never executed
+    $$$$$:   42-block 26
+    $$$$$:   42-block 27
+call   66 never executed
+    $$$$$:   42-block 28
+    $$$$$:   42-block 29
+call   67 never executed
+    $$$$$:   42-block 30
+    $$$$$:   42-block 31
+call   68 never executed
+    $$$$$:   42-block 32
+    $$$$$:   42-block 33
+call   69 never executed
+    $$$$$:   42-block 34
+    $$$$$:   42-block 35
+call   70 never executed
+    $$$$$:   42-block 36
+    $$$$$:   42-block 37
+    $$$$$:   42-block 38
+branch 71 never executed
+branch 72 never executed
+    $$$$$:   42-block 39
+call   73 never executed
+    $$$$$:   42-block 40
+    $$$$$:   42-block 41
+branch 74 never executed
+branch 75 never executed
+    $$$$$:   42-block 42
+call   76 never executed
+    $$$$$:   42-block 43
+    $$$$$:   42-block 44
+branch 77 never executed
+branch 78 never executed
+    $$$$$:   42-block 45
+call   79 never executed
+    $$$$$:   42-block 46
+    $$$$$:   42-block 47
+branch 80 never executed
+branch 81 never executed
+    $$$$$:   42-block 48
+call   82 never executed
+    $$$$$:   42-block 49
+    $$$$$:   42-block 50
+branch 83 never executed
+branch 84 never executed
+    $$$$$:   42-block 51
+call   85 never executed
+    $$$$$:   42-block 52
+    $$$$$:   42-block 53
+branch 86 never executed
+branch 87 never executed
+    $$$$$:   42-block 54
+call   88 never executed
+    $$$$$:   42-block 55
+    $$$$$:   42-block 56
+        1:   43:    controller.add_Event_to_repo("Pizza party", "parca fsega", "https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(15, 46,2020,3,12), 6);
+        1:   43-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   43-block  1
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   43-block  2
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   43-block  3
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   43-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   43-block  5
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   43-block  6
+call   24 never executed
+    $$$$$:   43-block  7
+    $$$$$:   43-block  8
+call   25 never executed
+    $$$$$:   43-block  9
+    $$$$$:   43-block 10
+call   26 never executed
+    $$$$$:   43-block 11
+    $$$$$:   43-block 12
+call   27 never executed
+    $$$$$:   43-block 13
+    $$$$$:   43-block 14
+call   28 never executed
+    $$$$$:   43-block 15
+    $$$$$:   43-block 16
+call   29 never executed
+    $$$$$:   43-block 17
+    $$$$$:   43-block 18
+        1:   44:    controller.add_Event_to_repo("Allnighter", "OOP", "https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(4,35,2021,3,12), 10);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   44-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   44-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   44-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   44-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   44-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   44-block  5
+call   24 never executed
+    $$$$$:   44-block  6
+    $$$$$:   44-block  7
+call   25 never executed
+    $$$$$:   44-block  8
+    $$$$$:   44-block  9
+call   26 never executed
+    $$$$$:   44-block 10
+    $$$$$:   44-block 11
+call   27 never executed
+    $$$$$:   44-block 12
+    $$$$$:   44-block 13
+call   28 never executed
+    $$$$$:   44-block 14
+    $$$$$:   44-block 15
+call   29 never executed
+    $$$$$:   44-block 16
+    $$$$$:   44-block 17
+        1:   45:    controller.add_Event_to_repo("Untold", "music", "https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(4,40,2022,3,12), 900);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   45-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   45-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   45-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   45-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   45-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   45-block  5
+call   24 never executed
+    $$$$$:   45-block  6
+    $$$$$:   45-block  7
+call   25 never executed
+    $$$$$:   45-block  8
+    $$$$$:   45-block  9
+call   26 never executed
+    $$$$$:   45-block 10
+    $$$$$:   45-block 11
+call   27 never executed
+    $$$$$:   45-block 12
+    $$$$$:   45-block 13
+call   28 never executed
+    $$$$$:   45-block 14
+    $$$$$:   45-block 15
+call   29 never executed
+    $$$$$:   45-block 16
+    $$$$$:   45-block 17
+        1:   46:    controller.add_Event_to_repo("mcdonals", "coada", "https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(7,41,2023,3,12), 7);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   46-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   46-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   46-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   46-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   46-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   46-block  5
+call   24 never executed
+    $$$$$:   46-block  6
+    $$$$$:   46-block  7
+call   25 never executed
+    $$$$$:   46-block  8
+    $$$$$:   46-block  9
+call   26 never executed
+    $$$$$:   46-block 10
+    $$$$$:   46-block 11
+call   27 never executed
+    $$$$$:   46-block 12
+    $$$$$:   46-block 13
+call   28 never executed
+    $$$$$:   46-block 14
+    $$$$$:   46-block 15
+call   29 never executed
+    $$$$$:   46-block 16
+    $$$$$:   46-block 17
+        1:   47:    controller.add_Event_to_repo("Smash", "Varga", "https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(1,26,2022,12,3), 3);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   47-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   47-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   47-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   47-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   47-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   47-block  5
+call   24 never executed
+    $$$$$:   47-block  6
+    $$$$$:   47-block  7
+call   25 never executed
+    $$$$$:   47-block  8
+    $$$$$:   47-block  9
+call   26 never executed
+    $$$$$:   47-block 10
+    $$$$$:   47-block 11
+call   27 never executed
+    $$$$$:   47-block 12
+    $$$$$:   47-block 13
+call   28 never executed
+    $$$$$:   47-block 14
+    $$$$$:   47-block 15
+call   29 never executed
+    $$$$$:   47-block 16
+    $$$$$:   47-block 17
+        1:   48:    controller.add_Event_to_repo("Code end graduation party", "the code has ended forever","https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(8,6,2060,9,9), 9);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   48-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   48-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   48-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   48-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   48-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   48-block  5
+call   24 never executed
+    $$$$$:   48-block  6
+    $$$$$:   48-block  7
+call   25 never executed
+    $$$$$:   48-block  8
+    $$$$$:   48-block  9
+call   26 never executed
+    $$$$$:   48-block 10
+    $$$$$:   48-block 11
+call   27 never executed
+    $$$$$:   48-block 12
+    $$$$$:   48-block 13
+call   28 never executed
+    $$$$$:   48-block 14
+    $$$$$:   48-block 15
+call   29 never executed
+    $$$$$:   48-block 16
+    $$$$$:   48-block 17
+       1*:   49:    assert(controller.delete_Event_from_repo("Allnighter", "OOP", "https://www.youtube.com/watch?v=p9j3TKhOn30")==true);
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   49-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   49-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   49-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   49-block  3
+branch 15 taken 0 (fallthrough)
+branch 16 taken 1
+    %%%%%:   49-block  4
+call   17 never executed
+branch 18 never executed
+branch 19 never executed
+        1:   49-block  5
+    %%%%%:   49-block  6
+        1:   49-block  7
+branch 20 taken 1 (fallthrough)
+branch 21 taken 0
+        1:   49-block  8
+call   22 returned 1
+        1:   49-block  9
+branch 23 taken 1 (fallthrough)
+branch 24 taken 0
+        1:   49-block 10
+call   25 returned 1
+        1:   49-block 11
+branch 26 taken 1 (fallthrough)
+branch 27 taken 0
+        1:   49-block 12
+call   28 returned 1
+        1:   49-block 13
+branch 29 taken 1 (fallthrough)
+branch 30 taken 0
+        1:   49-block 14
+call   31 returned 1
+        1:   49-block 15
+branch 32 taken 1 (fallthrough)
+branch 33 taken 0
+        1:   49-block 16
+call   34 returned 1
+        1:   49-block 17
+branch 35 taken 1 (fallthrough)
+branch 36 taken 0
+        1:   49-block 18
+call   37 returned 1
+    $$$$$:   49-block 19
+branch 38 never executed
+branch 39 never executed
+    $$$$$:   49-block 20
+call   40 never executed
+    $$$$$:   49-block 21
+    $$$$$:   49-block 22
+branch 41 never executed
+branch 42 never executed
+    $$$$$:   49-block 23
+call   43 never executed
+    $$$$$:   49-block 24
+    $$$$$:   49-block 25
+branch 44 never executed
+branch 45 never executed
+    $$$$$:   49-block 26
+call   46 never executed
+    $$$$$:   49-block 27
+    $$$$$:   49-block 28
+branch 47 never executed
+branch 48 never executed
+    $$$$$:   49-block 29
+call   49 never executed
+    $$$$$:   49-block 30
+    $$$$$:   49-block 31
+branch 50 never executed
+branch 51 never executed
+    $$$$$:   49-block 32
+call   52 never executed
+    $$$$$:   49-block 33
+    $$$$$:   49-block 34
+branch 53 never executed
+branch 54 never executed
+    $$$$$:   49-block 35
+call   55 never executed
+    $$$$$:   49-block 36
+        -:   50:
+        2:   51:    Event to_test = Event("title1", "description1", "link1", 1, d);
+        1:   51-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   51-block  1
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   51-block  2
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   51-block  3
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   51-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+    $$$$$:   51-block  5
+    $$$$$:   51-block  6
+    $$$$$:   51-block  7
+    $$$$$:   51-block  8
+    $$$$$:   51-block  9
+    $$$$$:   51-block 10
+    $$$$$:   51-block 11
+        1:   52:    to_test.set_description("description");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   52-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   52-block  1
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   52-block  2
+call    9 never executed
+    $$$$$:   52-block  3
+    $$$$$:   52-block  4
+call   10 never executed
+    $$$$$:   52-block  5
+        1:   53:    to_test.set_duration(d);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   53-block  0
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+    $$$$$:   53-block  1
+        1:   54:    to_test.set_link("link");
+        1:   54-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   54-block  1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   54-block  2
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   54-block  3
+call    9 never executed
+    $$$$$:   54-block  4
+    $$$$$:   54-block  5
+call   10 never executed
+    $$$$$:   54-block  6
+        1:   55:    to_test.set_title("title");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   55-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   55-block  1
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   55-block  2
+call    9 never executed
+    $$$$$:   55-block  3
+    $$$$$:   55-block  4
+call   10 never executed
+    $$$$$:   55-block  5
+        1:   56:    to_test.set_number_of_people(1);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   57:    assert(to_test.get_title()=="title");
+        1:   57-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   57-block  1
+call    3 returned 1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 1
+    %%%%%:   57-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+        1:   57-block  3
+    %%%%%:   57-block  4
+        1:   57-block  5
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0
+        1:   57-block  6
+call   11 returned 1
+    $$$$$:   57-block  7
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   57-block  8
+call   14 never executed
+    $$$$$:   57-block  9
+       1*:   58:    assert(to_test.get_link()=="link");
+        1:   58-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   58-block  1
+call    3 returned 1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 1
+    %%%%%:   58-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+        1:   58-block  3
+    %%%%%:   58-block  4
+        1:   58-block  5
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0
+        1:   58-block  6
+call   11 returned 1
+    $$$$$:   58-block  7
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   58-block  8
+call   14 never executed
+    $$$$$:   58-block  9
+       1*:   59:    assert(to_test.get_description()=="description");
+        1:   59-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   59-block  1
+call    3 returned 1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 1
+    %%%%%:   59-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+        1:   59-block  3
+    %%%%%:   59-block  4
+        1:   59-block  5
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0
+        1:   59-block  6
+call   11 returned 1
+    $$$$$:   59-block  7
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   59-block  8
+call   14 never executed
+    $$$$$:   59-block  9
+       1*:   60:    assert(to_test.get_number_of_people()==1);
+        1:   60-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   60-block  1
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    %%%%%:   60-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+        1:   60-block  3
+    %%%%%:   60-block  4
+       1*:   61:    assert(to_test.get_duration().get_minutes()==d.get_minutes());
+        1:   61-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   61-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   61-block  2
+call    6 returned 1
+branch  7 taken 1 (fallthrough)
+branch  8 taken 0 (throw)
+        1:   61-block  3
+branch  9 taken 0 (fallthrough)
+branch 10 taken 1
+    %%%%%:   61-block  4
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+        1:   61-block  5
+    %%%%%:   61-block  6
+    $$$$$:   61-block  7
+        -:   62:
+        2:   63:    std::string Event= "Event: "+ to_test.get_title() + " description " +to_test.get_description() + ". On the time and date: "+std::to_string(d.get_hour())+":"+std::to_string(d.get_minutes())+" "+ std::to_string(d.get_day())+"/"+std::to_string(d.get_month())+"/"+std::to_string(d.get_year())+" with "+std::to_string(to_test.get_number_of_people())+" people.\n";
+        1:   63-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   63-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   63-block  2
+call    6 returned 1
+branch  7 taken 1 (fallthrough)
+branch  8 taken 0 (throw)
+        1:   63-block  3
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   63-block  4
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   63-block  5
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   63-block  6
+call   18 returned 1
+branch 19 taken 1 (fallthrough)
+branch 20 taken 0 (throw)
+        1:   63-block  7
+call   21 returned 1
+branch 22 taken 1 (fallthrough)
+branch 23 taken 0 (throw)
+        1:   63-block  8
+call   24 returned 1
+branch 25 taken 1 (fallthrough)
+branch 26 taken 0 (throw)
+        1:   63-block  9
+call   27 returned 1
+branch 28 taken 1 (fallthrough)
+branch 29 taken 0 (throw)
+        1:   63-block 10
+call   30 returned 1
+branch 31 taken 1 (fallthrough)
+branch 32 taken 0 (throw)
+        1:   63-block 11
+call   33 returned 1
+branch 34 taken 1 (fallthrough)
+branch 35 taken 0 (throw)
+        1:   63-block 12
+call   36 returned 1
+branch 37 taken 1 (fallthrough)
+branch 38 taken 0 (throw)
+        1:   63-block 13
+call   39 returned 1
+branch 40 taken 1 (fallthrough)
+branch 41 taken 0 (throw)
+        1:   63-block 14
+call   42 returned 1
+branch 43 taken 1 (fallthrough)
+branch 44 taken 0 (throw)
+        1:   63-block 15
+call   45 returned 1
+branch 46 taken 1 (fallthrough)
+branch 47 taken 0 (throw)
+        1:   63-block 16
+call   48 returned 1
+branch 49 taken 1 (fallthrough)
+branch 50 taken 0 (throw)
+        1:   63-block 17
+call   51 returned 1
+branch 52 taken 1 (fallthrough)
+branch 53 taken 0 (throw)
+        1:   63-block 18
+call   54 returned 1
+branch 55 taken 1 (fallthrough)
+branch 56 taken 0 (throw)
+        1:   63-block 19
+call   57 returned 1
+branch 58 taken 1 (fallthrough)
+branch 59 taken 0 (throw)
+        1:   63-block 20
+call   60 returned 1
+branch 61 taken 1 (fallthrough)
+branch 62 taken 0 (throw)
+        1:   63-block 21
+call   63 returned 1
+branch 64 taken 1 (fallthrough)
+branch 65 taken 0 (throw)
+        1:   63-block 22
+call   66 returned 1
+branch 67 taken 1 (fallthrough)
+branch 68 taken 0 (throw)
+        1:   63-block 23
+call   69 returned 1
+branch 70 taken 1 (fallthrough)
+branch 71 taken 0 (throw)
+        1:   63-block 24
+call   72 returned 1
+branch 73 taken 1 (fallthrough)
+branch 74 taken 0 (throw)
+        1:   63-block 25
+call   75 returned 1
+branch 76 taken 1 (fallthrough)
+branch 77 taken 0 (throw)
+        1:   63-block 26
+call   78 returned 1
+branch 79 taken 1 (fallthrough)
+branch 80 taken 0 (throw)
+        1:   63-block 27
+call   81 returned 1
+branch 82 taken 1 (fallthrough)
+branch 83 taken 0 (throw)
+        1:   63-block 28
+call   84 returned 1
+branch 85 taken 1 (fallthrough)
+branch 86 taken 0 (throw)
+        1:   63-block 29
+call   87 returned 1
+branch 88 taken 1 (fallthrough)
+branch 89 taken 0 (throw)
+call   90 returned 1
+call   91 returned 1
+call   92 returned 1
+call   93 returned 1
+call   94 returned 1
+call   95 returned 1
+call   96 returned 1
+call   97 returned 1
+call   98 returned 1
+call   99 returned 1
+call   100 returned 1
+call   101 returned 1
+call   102 returned 1
+call   103 returned 1
+call   104 returned 1
+call   105 returned 1
+call   106 returned 1
+call   107 returned 1
+call   108 returned 1
+call   109 returned 1
+call   110 returned 1
+call   111 returned 1
+    $$$$$:   63-block 30
+    $$$$$:   63-block 31
+    $$$$$:   63-block 32
+    $$$$$:   63-block 33
+    $$$$$:   63-block 34
+    $$$$$:   63-block 35
+    $$$$$:   63-block 36
+    $$$$$:   63-block 37
+    $$$$$:   63-block 38
+    $$$$$:   63-block 39
+    $$$$$:   63-block 40
+    $$$$$:   63-block 41
+    $$$$$:   63-block 42
+    $$$$$:   63-block 43
+    $$$$$:   63-block 44
+    $$$$$:   63-block 45
+    $$$$$:   63-block 46
+    $$$$$:   63-block 47
+    $$$$$:   63-block 48
+    $$$$$:   63-block 49
+    $$$$$:   63-block 50
+    $$$$$:   63-block 51
+    $$$$$:   63-block 52
+       1*:   64:    assert(to_test.Event_long_string()==Event);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   64-block  0
+call    3 returned 1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 1
+    %%%%%:   64-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+        1:   64-block  2
+    %%%%%:   64-block  3
+        1:   64-block  4
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0
+        1:   64-block  5
+call   11 returned 1
+    $$$$$:   64-block  6
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   64-block  7
+call   14 never executed
+    $$$$$:   64-block  8
+        -:   65:
+        -:   66:
+        -:   67:
+        -:   68:
+        -:   69:
+        1:   70:}
+        1:   70-block  0
+call    0 returned 1
+call    1 returned 1
+call    2 returned 1
+call    3 returned 1
+    $$$$$:   70-block  1
+call    4 never executed
+    $$$$$:   70-block  2
+call    5 never executed
+    $$$$$:   70-block  3
+call    6 never executed
+    $$$$$:   70-block  4
+call    7 never executed
+        -:   71:
+        -:   72:
+        -:   73:
+function _Z6tests2v called 1 returned 100% blocks executed 43%
+        1:   74:void tests2() {
+        1:   75:    Repo repository = Repo();
+        1:   75-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   76:    Controller controller = Controller(repository);
+        1:   76-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   76-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+    $$$$$:   76-block  2
+        1:   77:    Duration d;
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   78:    d.set_day(1);
+        1:   78-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   79:    d.set_hour(1);
+        1:   79-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   80:    d.set_minutes(1);
+        1:   80-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   81:    d.set_month(1);
+        1:   81-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   82:    d.set_year(2002);
+        1:   82-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   83:
+        -:   84:
+        1:   85:    controller.add_Event_to_repo("Excu", "Munte 200lei","https://www.youtube.com/watch?v=p9j3TKhOn30",Duration(7,30,2007,6,30), 10);
+        1:   85-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   85-block  1
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   85-block  2
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   85-block  3
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   85-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   85-block  5
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   85-block  6
+call   24 never executed
+    $$$$$:   85-block  7
+    $$$$$:   85-block  8
+call   25 never executed
+    $$$$$:   85-block  9
+    $$$$$:   85-block 10
+call   26 never executed
+    $$$$$:   85-block 11
+    $$$$$:   85-block 12
+call   27 never executed
+    $$$$$:   85-block 13
+    $$$$$:   85-block 14
+call   28 never executed
+    $$$$$:   85-block 15
+    $$$$$:   85-block 16
+call   29 never executed
+    $$$$$:   85-block 17
+    $$$$$:   85-block 18
+        1:   86:    controller.add_Event_to_repo("Qrowozon", "YT", "https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(6, 15,2022,12,24), 1);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   86-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   86-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   86-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   86-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   86-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   86-block  5
+call   24 never executed
+    $$$$$:   86-block  6
+    $$$$$:   86-block  7
+call   25 never executed
+    $$$$$:   86-block  8
+    $$$$$:   86-block  9
+call   26 never executed
+    $$$$$:   86-block 10
+    $$$$$:   86-block 11
+call   27 never executed
+    $$$$$:   86-block 12
+    $$$$$:   86-block 13
+call   28 never executed
+    $$$$$:   86-block 14
+    $$$$$:   86-block 15
+call   29 never executed
+    $$$$$:   86-block 16
+    $$$$$:   86-block 17
+        1:   87:    controller.add_Event_to_repo("Animalia", "zoo", "https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(4,58,2022,7,5), 10);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   87-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   87-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   87-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   87-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   87-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   87-block  5
+call   24 never executed
+    $$$$$:   87-block  6
+    $$$$$:   87-block  7
+call   25 never executed
+    $$$$$:   87-block  8
+    $$$$$:   87-block  9
+call   26 never executed
+    $$$$$:   87-block 10
+    $$$$$:   87-block 11
+call   27 never executed
+    $$$$$:   87-block 12
+    $$$$$:   87-block 13
+call   28 never executed
+    $$$$$:   87-block 14
+    $$$$$:   87-block 15
+call   29 never executed
+    $$$$$:   87-block 16
+    $$$$$:   87-block 17
+       1*:   88:    controller.add_Event_to_repo("Amongus", "Danisus", "https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(4,54,2021,9,20), 9);assert(controller.add_Event_to_repo("title_", "description_", "link_", Duration(1,2, 2001, 4, 5), 6)==true);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   88-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   88-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   88-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   88-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   88-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+branch 25 taken 1 (fallthrough)
+branch 26 taken 0 (throw)
+        1:   88-block  5
+call   27 returned 1
+call   28 returned 1
+branch 29 taken 1 (fallthrough)
+branch 30 taken 0 (throw)
+        1:   88-block  6
+call   31 returned 1
+call   32 returned 1
+branch 33 taken 1 (fallthrough)
+branch 34 taken 0 (throw)
+        1:   88-block  7
+call   35 returned 1
+call   36 returned 1
+branch 37 taken 1 (fallthrough)
+branch 38 taken 0 (throw)
+        1:   88-block  8
+call   39 returned 1
+branch 40 taken 1 (fallthrough)
+branch 41 taken 0 (throw)
+        1:   88-block  9
+branch 42 taken 0 (fallthrough)
+branch 43 taken 1
+    %%%%%:   88-block 10
+call   44 never executed
+branch 45 never executed
+branch 46 never executed
+        1:   88-block 11
+    %%%%%:   88-block 12
+        1:   88-block 13
+branch 47 taken 1 (fallthrough)
+branch 48 taken 0
+        1:   88-block 14
+call   49 returned 1
+        1:   88-block 15
+branch 50 taken 1 (fallthrough)
+branch 51 taken 0
+        1:   88-block 16
+call   52 returned 1
+        1:   88-block 17
+branch 53 taken 1 (fallthrough)
+branch 54 taken 0
+        1:   88-block 18
+call   55 returned 1
+        1:   88-block 19
+branch 56 taken 1 (fallthrough)
+branch 57 taken 0
+        1:   88-block 20
+call   58 returned 1
+        1:   88-block 21
+branch 59 taken 1 (fallthrough)
+branch 60 taken 0
+        1:   88-block 22
+call   61 returned 1
+        1:   88-block 23
+branch 62 taken 1 (fallthrough)
+branch 63 taken 0
+        1:   88-block 24
+call   64 returned 1
+    $$$$$:   88-block 25
+call   65 never executed
+    $$$$$:   88-block 26
+    $$$$$:   88-block 27
+call   66 never executed
+    $$$$$:   88-block 28
+    $$$$$:   88-block 29
+call   67 never executed
+    $$$$$:   88-block 30
+    $$$$$:   88-block 31
+call   68 never executed
+    $$$$$:   88-block 32
+    $$$$$:   88-block 33
+call   69 never executed
+    $$$$$:   88-block 34
+    $$$$$:   88-block 35
+call   70 never executed
+    $$$$$:   88-block 36
+    $$$$$:   88-block 37
+    $$$$$:   88-block 38
+branch 71 never executed
+branch 72 never executed
+    $$$$$:   88-block 39
+call   73 never executed
+    $$$$$:   88-block 40
+    $$$$$:   88-block 41
+branch 74 never executed
+branch 75 never executed
+    $$$$$:   88-block 42
+call   76 never executed
+    $$$$$:   88-block 43
+    $$$$$:   88-block 44
+branch 77 never executed
+branch 78 never executed
+    $$$$$:   88-block 45
+call   79 never executed
+    $$$$$:   88-block 46
+    $$$$$:   88-block 47
+branch 80 never executed
+branch 81 never executed
+    $$$$$:   88-block 48
+call   82 never executed
+    $$$$$:   88-block 49
+    $$$$$:   88-block 50
+branch 83 never executed
+branch 84 never executed
+    $$$$$:   88-block 51
+call   85 never executed
+    $$$$$:   88-block 52
+    $$$$$:   88-block 53
+branch 86 never executed
+branch 87 never executed
+    $$$$$:   88-block 54
+call   88 never executed
+    $$$$$:   88-block 55
+    $$$$$:   88-block 56
+        1:   89:    controller.add_Event_to_repo("Pizza party", "parca fsega", "https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(15, 46,2020,3,12), 6);
+        1:   89-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   89-block  1
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   89-block  2
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   89-block  3
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   89-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   89-block  5
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   89-block  6
+call   24 never executed
+    $$$$$:   89-block  7
+    $$$$$:   89-block  8
+call   25 never executed
+    $$$$$:   89-block  9
+    $$$$$:   89-block 10
+call   26 never executed
+    $$$$$:   89-block 11
+    $$$$$:   89-block 12
+call   27 never executed
+    $$$$$:   89-block 13
+    $$$$$:   89-block 14
+call   28 never executed
+    $$$$$:   89-block 15
+    $$$$$:   89-block 16
+call   29 never executed
+    $$$$$:   89-block 17
+    $$$$$:   89-block 18
+        1:   90:    controller.add_Event_to_repo("Allnighter", "OOP", "https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(4,35,2021,3,12), 10);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   90-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   90-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   90-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   90-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   90-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   90-block  5
+call   24 never executed
+    $$$$$:   90-block  6
+    $$$$$:   90-block  7
+call   25 never executed
+    $$$$$:   90-block  8
+    $$$$$:   90-block  9
+call   26 never executed
+    $$$$$:   90-block 10
+    $$$$$:   90-block 11
+call   27 never executed
+    $$$$$:   90-block 12
+    $$$$$:   90-block 13
+call   28 never executed
+    $$$$$:   90-block 14
+    $$$$$:   90-block 15
+call   29 never executed
+    $$$$$:   90-block 16
+    $$$$$:   90-block 17
+        1:   91:    controller.add_Event_to_repo("Untold", "music", "https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(4,40,2022,3,12), 900);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   91-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   91-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   91-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   91-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   91-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   91-block  5
+call   24 never executed
+    $$$$$:   91-block  6
+    $$$$$:   91-block  7
+call   25 never executed
+    $$$$$:   91-block  8
+    $$$$$:   91-block  9
+call   26 never executed
+    $$$$$:   91-block 10
+    $$$$$:   91-block 11
+call   27 never executed
+    $$$$$:   91-block 12
+    $$$$$:   91-block 13
+call   28 never executed
+    $$$$$:   91-block 14
+    $$$$$:   91-block 15
+call   29 never executed
+    $$$$$:   91-block 16
+    $$$$$:   91-block 17
+        1:   92:    controller.add_Event_to_repo("mcdonals", "coada", "https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(7,41,2023,3,12), 7);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   92-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   92-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   92-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   92-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   92-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   92-block  5
+call   24 never executed
+    $$$$$:   92-block  6
+    $$$$$:   92-block  7
+call   25 never executed
+    $$$$$:   92-block  8
+    $$$$$:   92-block  9
+call   26 never executed
+    $$$$$:   92-block 10
+    $$$$$:   92-block 11
+call   27 never executed
+    $$$$$:   92-block 12
+    $$$$$:   92-block 13
+call   28 never executed
+    $$$$$:   92-block 14
+    $$$$$:   92-block 15
+call   29 never executed
+    $$$$$:   92-block 16
+    $$$$$:   92-block 17
+        1:   93:    controller.add_Event_to_repo("Smash", "Varga", "https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(1,26,2022,12,3), 3);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   93-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   93-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   93-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   93-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   93-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   93-block  5
+call   24 never executed
+    $$$$$:   93-block  6
+    $$$$$:   93-block  7
+call   25 never executed
+    $$$$$:   93-block  8
+    $$$$$:   93-block  9
+call   26 never executed
+    $$$$$:   93-block 10
+    $$$$$:   93-block 11
+call   27 never executed
+    $$$$$:   93-block 12
+    $$$$$:   93-block 13
+call   28 never executed
+    $$$$$:   93-block 14
+    $$$$$:   93-block 15
+call   29 never executed
+    $$$$$:   93-block 16
+    $$$$$:   93-block 17
+        1:   94:    controller.add_Event_to_repo("Code end graduation party", "the code has ended forever","https://www.youtube.com/watch?v=p9j3TKhOn30", Duration(8,6,2060,9,9), 9);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   94-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   94-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   94-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   94-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   94-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+    $$$$$:   94-block  5
+call   24 never executed
+    $$$$$:   94-block  6
+    $$$$$:   94-block  7
+call   25 never executed
+    $$$$$:   94-block  8
+    $$$$$:   94-block  9
+call   26 never executed
+    $$$$$:   94-block 10
+    $$$$$:   94-block 11
+call   27 never executed
+    $$$$$:   94-block 12
+    $$$$$:   94-block 13
+call   28 never executed
+    $$$$$:   94-block 14
+    $$$$$:   94-block 15
+call   29 never executed
+    $$$$$:   94-block 16
+    $$$$$:   94-block 17
+       1*:   95:    assert(controller.delete_Event_from_repo("Allnighter", "OOP", "https://www.youtube.com/watch?v=p9j3TKhOn30")==true);
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   95-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   95-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   95-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   95-block  3
+branch 15 taken 0 (fallthrough)
+branch 16 taken 1
+    %%%%%:   95-block  4
+call   17 never executed
+branch 18 never executed
+branch 19 never executed
+        1:   95-block  5
+    %%%%%:   95-block  6
+        1:   95-block  7
+branch 20 taken 1 (fallthrough)
+branch 21 taken 0
+        1:   95-block  8
+call   22 returned 1
+        1:   95-block  9
+branch 23 taken 1 (fallthrough)
+branch 24 taken 0
+        1:   95-block 10
+call   25 returned 1
+        1:   95-block 11
+branch 26 taken 1 (fallthrough)
+branch 27 taken 0
+        1:   95-block 12
+call   28 returned 1
+        1:   95-block 13
+branch 29 taken 1 (fallthrough)
+branch 30 taken 0
+        1:   95-block 14
+call   31 returned 1
+        1:   95-block 15
+branch 32 taken 1 (fallthrough)
+branch 33 taken 0
+        1:   95-block 16
+call   34 returned 1
+        1:   95-block 17
+branch 35 taken 1 (fallthrough)
+branch 36 taken 0
+        1:   95-block 18
+call   37 returned 1
+    $$$$$:   95-block 19
+branch 38 never executed
+branch 39 never executed
+    $$$$$:   95-block 20
+call   40 never executed
+    $$$$$:   95-block 21
+    $$$$$:   95-block 22
+branch 41 never executed
+branch 42 never executed
+    $$$$$:   95-block 23
+call   43 never executed
+    $$$$$:   95-block 24
+    $$$$$:   95-block 25
+branch 44 never executed
+branch 45 never executed
+    $$$$$:   95-block 26
+call   46 never executed
+    $$$$$:   95-block 27
+    $$$$$:   95-block 28
+branch 47 never executed
+branch 48 never executed
+    $$$$$:   95-block 29
+call   49 never executed
+    $$$$$:   95-block 30
+    $$$$$:   95-block 31
+branch 50 never executed
+branch 51 never executed
+    $$$$$:   95-block 32
+call   52 never executed
+    $$$$$:   95-block 33
+    $$$$$:   95-block 34
+branch 53 never executed
+branch 54 never executed
+    $$$$$:   95-block 35
+call   55 never executed
+    $$$$$:   95-block 36
+        -:   96:
+        2:   97:    Event to_test = Event("title1", "description1", "link1", 1, d);
+        1:   97-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   97-block  1
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   97-block  2
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   97-block  3
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   97-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+    $$$$$:   97-block  5
+    $$$$$:   97-block  6
+    $$$$$:   97-block  7
+    $$$$$:   97-block  8
+    $$$$$:   97-block  9
+    $$$$$:   97-block 10
+    $$$$$:   97-block 11
+        -:   98:
+        2:   99:    Event e1 = Event("Excu", "Munte 200lei","https://www.youtube.com/watch?v=p9j3TKhOn30",10,Duration(7,30,2007,6,30));
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   99-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   99-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   99-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   99-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+    $$$$$:   99-block  4
+    $$$$$:   99-block  5
+    $$$$$:   99-block  6
+    $$$$$:   99-block  7
+    $$$$$:   99-block  8
+    $$$$$:   99-block  9
+    $$$$$:   99-block 10
+        2:  100:    Event e2 = Event("Qrowozon", "YT", "https://www.youtube.com/watch?v=p9j3TKhOn30",1, Duration(6, 15,2022,6,24));
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  100-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:  100-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:  100-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:  100-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+    $$$$$:  100-block  4
+    $$$$$:  100-block  5
+    $$$$$:  100-block  6
+    $$$$$:  100-block  7
+    $$$$$:  100-block  8
+    $$$$$:  100-block  9
+    $$$$$:  100-block 10
+        2:  101:    Event e3 = Event("Animalia", "zoo", "https://www.youtube.com/watch?v=p9j3TKhOn30",10, Duration(4,58,2022,6,5));
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  101-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:  101-block  1
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:  101-block  2
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:  101-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+    $$$$$:  101-block  4
+    $$$$$:  101-block  5
+    $$$$$:  101-block  6
+    $$$$$:  101-block  7
+    $$$$$:  101-block  8
+    $$$$$:  101-block  9
+    $$$$$:  101-block 10
+        -:  102:
+        -:  103:
+        1:  104:    controller.sort_by_date();
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:  105:    int nr;
+        -:  106:
+        1:  107:    controller.add_Event_to_agenda(to_test);
+        1:  107-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:  108://    Event* allE= controller.get_agenda_Events();
+        -:  109://    //std::cout<<allE[0].get_title();
+        -:  110://    assert(allE[0].get_title()=="title1");
+        -:  111://    assert(controller.get_number_of_Events_agenda()==1);
+        -:  112://    assert(controller.add_Event_to_agenda(to_test)==false);
+        -:  113://    assert(controller.get_Event_position_agenda(0).get_title()==to_test.get_title());
+        -:  114://
+        -:  115://    int nr_Events;
+        -:  116://    Event* m = controller.get_all_Events_by_month(1,nr_Events);
+        -:  117://    //std::cout<<m[0].get_title();
+        -:  118://    assert(nr_Events==0);
+        -:  119://    controller.add_Event_to_agenda(e1);
+        -:  120://    controller.add_Event_to_agenda(e2);
+        -:  121://    controller.add_Event_to_agenda(e3);
+        -:  122://    Event* n = controller.get_all_Events_by_month(6,nr_Events);
+        -:  123://    //std::cout<<m[0].get_title();
+        -:  124://    //std::cout<<nr_Events;
+        -:  125://    assert(nr_Events==1);
+        -:  126://
+        -:  127://
+        -:  128://    std::string Event= "Event: "+ to_test.get_title() + " description " +to_test.get_description() + ". On the time and date: "+std::to_string(d.get_hour())+":"+std::to_string(d.get_minutes())+" "+ std::to_string(d.get_day())+"/"+std::to_string(d.get_month())+"/"+std::to_string(d.get_year())+" at the following link: "+to_test.get_link()+"\n";
+        -:  129://    assert(to_test.Event_string()==Event);
+        -:  130://
+        -:  131://
+        -:  132://
+        -:  133://    assert(controller.delete_Event_from_agenda(to_test)==true);
+        -:  134://    assert(controller.get_number_of_Events_agenda()==3);
+        -:  135://    assert(controller.delete_Event_from_agenda(to_test)==false);
+        -:  136://    assert(controller.get_number_of_Events_agenda()==3);
+        -:  137:
+        1:  138:}
+        1:  138-block  0
+call    0 returned 1
+call    1 returned 1
+call    2 returned 1
+call    3 returned 1
+call    4 returned 1
+call    5 returned 1
+    $$$$$:  138-block  1
+call    6 never executed
+    $$$$$:  138-block  2
+call    7 never executed
+    $$$$$:  138-block  3
+call    8 never executed
+    $$$$$:  138-block  4
+call    9 never executed
+    $$$$$:  138-block  5
+call   10 never executed
+    $$$$$:  138-block  6
+call   11 never executed

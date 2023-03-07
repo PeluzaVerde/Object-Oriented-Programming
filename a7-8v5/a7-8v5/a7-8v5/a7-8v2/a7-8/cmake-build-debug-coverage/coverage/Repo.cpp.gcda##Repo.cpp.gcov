@@ -1,0 +1,94 @@
+        -:    0:Source:D:/Downloads/Downloads/a7-8v2/a7-8/Repo.cpp
+        -:    0:Graph:D:\Downloads\Downloads\a7-8v2\a7-8\cmake-build-debug-coverage\CMakeFiles\a5_6.dir\Repo.cpp.gcno
+        -:    0:Data:D:\Downloads\Downloads\a7-8v2\a7-8\cmake-build-debug-coverage\CMakeFiles\a5_6.dir\Repo.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "Repo.h"
+        -:    2:
+        -:    3:
+function _ZN4RepoC2Ev called 14 returned 100% blocks executed 100%
+       14:    4:Repo::Repo() = default;
+       14:    4-block  0
+call    0 returned 14
+        -:    5:
+        -:    6://Event *Repo::get_all_Events() const {
+        -:    7://    return arr.get_all_elems();
+        -:    8://}
+        -:    9:
+function _ZN4Repo9add_EventERK5Event called 36 returned 100% blocks executed 100%
+       36:   10:bool Repo::add_Event(const Event &new_event) {
+       36:   11:    int nr_elements = arr.get_size();
+       36:   11-block  0
+call    0 returned 36
+       36:   12:    arr.add_element(new_event);
+call    0 returned 36
+        -:   13:
+        -:   14:    //arr+new_event;
+        -:   15:    //new_event+arr;
+       36:   16:    if (arr.get_size()-1 == nr_elements)
+call    0 returned 36
+branch  1 taken 35 (fallthrough)
+branch  2 taken 1
+       35:   17:        return true;
+       35:   17-block  0
+        -:   18:    else
+        1:   19:        return false;
+        1:   19-block  0
+        -:   20:}
+        -:   21:
+function _ZN4Repo12delete_EventERK5Event called 4 returned 100% blocks executed 100%
+        4:   22:bool Repo::delete_Event(const Event &to_delete) {
+        4:   23:    int nr_elements = arr.get_size();
+        4:   23-block  0
+call    0 returned 4
+        4:   24:    arr.delete_element(to_delete);
+call    0 returned 4
+        4:   25:    if(nr_elements-1 == arr.get_size())
+call    0 returned 4
+branch  1 taken 3 (fallthrough)
+branch  2 taken 1
+        3:   26:        return true;
+        3:   26-block  0
+        -:   27:    else
+        1:   28:        return false;
+        1:   28-block  0
+        -:   29:}
+        -:   30:
+function _ZN4Repo12update_EventERK5EventS2_ called 53 returned 100% blocks executed 100%
+       53:   31:bool Repo::update_Event(const Event &initial, const Event &final) {
+       53:   32:    int pos = arr.position_element(initial);
+       53:   32-block  0
+call    0 returned 53
+       53:   33:    if (pos==-1)
+branch  0 taken 1 (fallthrough)
+branch  1 taken 52
+        1:   34:        return false;
+        1:   34-block  0
+       52:   35:    arr.update_element(initial, final);
+       52:   35-block  0
+call    0 returned 52
+        -:   36:    //if (arr.get_element_from_position(pos)==final)
+       52:   37:        return true;
+        -:   38:
+        -:   39:}
+        -:   40:
+function _ZNK4Repo20get_number_of_EventsEv called 65 returned 100% blocks executed 100%
+       65:   41:int Repo::get_number_of_Events() const {
+       65:   42:    return arr.get_size();
+       65:   42-block  0
+call    0 returned 65
+        -:   43:}
+        -:   44:
+function _ZNK4Repo18get_event_from_posEi called 278 returned 100% blocks executed 100%
+      278:   45:Event Repo::get_event_from_pos(int position) const {
+      278:   46:    return arr.get_element_from_position(position);
+      278:   46-block  0
+call    0 returned 278
+        -:   47:}
+        -:   48:
+function _ZNK4Repo9get_eventEi called 0 returned 0% blocks executed 0%
+    #####:   49:Event Repo::get_event(int i) const {
+    #####:   50:    return this->arr.get_element(i);
+    %%%%%:   50-block  0
+call    0 never executed
+        -:   51:}
+        -:   52:

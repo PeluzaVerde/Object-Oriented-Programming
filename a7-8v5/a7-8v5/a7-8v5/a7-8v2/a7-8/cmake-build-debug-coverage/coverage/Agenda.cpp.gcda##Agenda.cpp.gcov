@@ -1,0 +1,76 @@
+        -:    0:Source:D:/Downloads/Downloads/a7-8v2/a7-8/Agenda.cpp
+        -:    0:Graph:D:\Downloads\Downloads\a7-8v2\a7-8\cmake-build-debug-coverage\CMakeFiles\a5_6.dir\Agenda.cpp.gcno
+        -:    0:Data:D:\Downloads\Downloads\a7-8v2\a7-8\cmake-build-debug-coverage\CMakeFiles\a5_6.dir\Agenda.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "Agenda.h"
+        -:    2:
+function _ZN6AgendaC2Ev called 7 returned 100% blocks executed 100%
+        7:    3:Agenda::Agenda()
+        7:    3-block  0
+call    0 returned 7
+        -:    4:{
+        7:    5:    currentIndex=0;
+        7:    6:}
+        -:    7:
+function _ZN6Agenda8addEventERK5Event called 1 returned 100% blocks executed 100%
+        1:    8:bool Agenda::addEvent(const Event& event)
+        -:    9:{
+        1:   10:	return events.add_Event(event);
+        1:   10-block  0
+call    0 returned 1
+        -:   11:}
+        -:   12:
+function _ZN6Agenda11deleteEventERK5Event called 0 returned 0% blocks executed 0%
+    #####:   13:bool Agenda::deleteEvent(const Event& event)
+        -:   14:{
+    #####:   15:    return events.delete_Event(event);
+    %%%%%:   15-block  0
+call    0 never executed
+        -:   16:}
+        -:   17:
+        -:   18://Event* Agenda::get_all_events() const {
+        -:   19://    return events.get_all_Events();
+        -:   20://}
+        -:   21:
+function _ZNK6Agenda9get_EventEi called 0 returned 0% blocks executed 0%
+    #####:   22:Event Agenda::get_Event(int i) const {
+        -:   23:    //return this->get_Event(i).get_event(i);
+    #####:   24:    return this->events.get_event(i);
+    %%%%%:   24-block  0
+call    0 never executed
+        -:   25:}
+        -:   26:
+function _ZNK6Agenda15get_nr_of_eventEv called 0 returned 0% blocks executed 0%
+    #####:   27:int Agenda::get_nr_of_event() const{
+    #####:   28:    return events.get_number_of_Events();
+    %%%%%:   28-block  0
+call    0 never executed
+        -:   29:}
+function _ZNK6Agenda4playEv called 0 returned 0% blocks executed 0%
+    #####:   30:void Agenda::play() const
+        -:   31:{
+        -:   32:	//Event* allTheEvents = events.get_all_Events();
+        -:   33:
+        -:   34:	//allTheEvents[currentIndex].play();
+    #####:   35:	this->events.get_event(currentIndex).play();
+    %%%%%:   35-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:   35-block  1
+call    4 never executed
+    $$$$$:   35-block  2
+call    5 never executed
+    #####:   36:}
+        -:   37:
+        -:   38:
+function _ZNK6Agenda21get_event_from_agendaEi called 0 returned 0% blocks executed 0%
+    #####:   39:Event Agenda::get_event_from_agenda(int pos) const{
+    #####:   40:    return events.get_event_from_pos(pos);
+    %%%%%:   40-block  0
+call    0 never executed
+        -:   41:}
+        -:   42:
+        -:   43:
+        -:   44:

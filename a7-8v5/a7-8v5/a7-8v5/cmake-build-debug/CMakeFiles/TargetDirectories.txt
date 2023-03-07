@@ -1,0 +1,3 @@
+C:/Users/HP/Downloads/a7-8v4/cmake-build-debug/CMakeFiles/a7_8v4.dir
+C:/Users/HP/Downloads/a7-8v4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/HP/Downloads/a7-8v4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

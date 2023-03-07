@@ -1,0 +1,57 @@
+        -:    0:Source:D:/Downloads/Downloads/a7-8v2/a7-8/main.cpp
+        -:    0:Graph:D:\Downloads\Downloads\a7-8v2\a7-8\cmake-build-debug-coverage\CMakeFiles\a5_6.dir\main.cpp.gcno
+        -:    0:Data:D:\Downloads\Downloads\a7-8v2\a7-8\cmake-build-debug-coverage\CMakeFiles\a5_6.dir\main.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by HP on 3/20/2022.
+        -:    3://
+        -:    4:
+        -:    5:#include "UI.h"
+        -:    6:#include "tests.h"
+        -:    7:
+function main called 1 returned 100% blocks executed 63%
+        1:    8:int main()
+        -:    9:{
+        -:   10:    //Test_All t;
+        -:   11:    //t.tests_everything();
+        1:   12:    tests();
+        1:   12-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   13:    tests2();
+        1:   13-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   14:
+        1:   15:    Repo repository = Repo();
+        1:   15-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   16:    UI ui = UI(repository);
+        1:   16-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   16-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+    $$$$$:   16-block  2
+        -:   17:
+        1:   18:    ui.start_application();
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   19:
+        1:   20:    return 0;
+        1:   21:}
+        1:   21-block  0
+call    0 returned 1
+call    1 returned 1
+    $$$$$:   21-block  1
+call    2 never executed
+    $$$$$:   21-block  2
+call    3 never executed

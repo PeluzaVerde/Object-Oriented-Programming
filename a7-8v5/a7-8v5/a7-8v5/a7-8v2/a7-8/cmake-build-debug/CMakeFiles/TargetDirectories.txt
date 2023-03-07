@@ -1,0 +1,5 @@
+C:/Users/HP/Desktop/a7-8v5/a7-8v5/a7-8v5/a7-8v2/a7-8/cmake-build-debug/CMakeFiles/a5_6.dir
+C:/Users/HP/Desktop/a7-8v5/a7-8v5/a7-8v5/a7-8v2/a7-8/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/HP/Desktop/a7-8v5/a7-8v5/a7-8v5/a7-8v2/a7-8/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/HP/Desktop/a7-8v5/a7-8v5/a7-8v5/a7-8v2/a7-8/cmake-build-debug/CMakeFiles/a5_6_autogen_timestamp_deps.dir
+C:/Users/HP/Desktop/a7-8v5/a7-8v5/a7-8v5/a7-8v2/a7-8/cmake-build-debug/CMakeFiles/a5_6_autogen.dir

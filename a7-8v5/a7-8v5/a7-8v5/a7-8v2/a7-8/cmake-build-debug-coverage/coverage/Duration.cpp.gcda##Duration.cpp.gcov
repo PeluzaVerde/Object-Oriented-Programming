@@ -1,0 +1,95 @@
+        -:    0:Source:D:/Downloads/Downloads/a7-8v2/a7-8/Duration.cpp
+        -:    0:Graph:D:\Downloads\Downloads\a7-8v2\a7-8\cmake-build-debug-coverage\CMakeFiles\a5_6.dir\Duration.cpp.gcno
+        -:    0:Data:D:\Downloads\Downloads\a7-8v2\a7-8\cmake-build-debug-coverage\CMakeFiles\a5_6.dir\Duration.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "Duration.h"
+        -:    2:
+function _ZN8DurationC2Ev called 1300 returned 100% blocks executed 100%
+     1300:    3:Duration::Duration()
+        -:    4:{
+     1300:    5:    this->minutes = 0;
+     1300:    6:    this->hour = 0;
+     1300:    7:    this->year = 0;
+     1300:    8:    this->month = 0;
+     1300:    9:    this->day = 0;
+     1300:   10:}
+        -:   11:
+function _ZN8DurationC2Eiiiii called 40 returned 100% blocks executed 100%
+       40:   12:Duration::Duration(int hour, int minutes, int year, int month, int day)
+        -:   13:{
+       40:   14:    this->minutes = minutes;
+       40:   15:    this->hour = hour;
+       40:   16:    this->year = year;
+       40:   17:    this->month = month;
+       40:   18:    this->day = day;
+       40:   19:}
+        -:   20:
+function _ZN8DurationC2ERKS_ called 387 returned 100% blocks executed 100%
+      387:   21:Duration::Duration(const Duration& copy)
+        -:   22:{
+      387:   23:    this->minutes = copy.minutes;
+      387:   24:    this->hour = copy.hour;
+      387:   25:    this->year = copy.year;
+      387:   26:    this->month = copy.month;
+      387:   27:    this->day = copy.day;
+      387:   28:}
+        -:   29:
+function _ZNK8Duration11get_minutesEv called 5 returned 100% blocks executed 100%
+        5:   30:int Duration::get_minutes() const
+        -:   31:{
+        5:   32:    return minutes;
+        5:   32-block  0
+        -:   33:}
+        -:   34:
+function _ZNK8Duration8get_hourEv called 3 returned 100% blocks executed 100%
+        3:   35:int Duration::get_hour() const
+        -:   36:{
+        3:   37:    return hour;
+        3:   37-block  0
+        -:   38:}
+function _ZNK8Duration8get_yearEv called 221 returned 100% blocks executed 100%
+      221:   39:int Duration::get_year() const
+        -:   40:{
+      221:   41:    return year;
+      221:   41-block  0
+        -:   42:}
+function _ZNK8Duration9get_monthEv called 27 returned 100% blocks executed 100%
+       27:   43:int Duration::get_month() const
+        -:   44:{
+       27:   45:    return month;
+       27:   45-block  0
+        -:   46:}
+function _ZNK8Duration7get_dayEv called 5 returned 100% blocks executed 100%
+        5:   47:int Duration::get_day() const
+        -:   48:{
+        5:   49:    return day;
+        5:   49-block  0
+        -:   50:}
+        -:   51:
+        -:   52:
+function _ZN8Duration11set_minutesEi called 2 returned 100% blocks executed 100%
+        2:   53:void Duration::set_minutes(int minutes)
+        -:   54:{
+        2:   55:    this->minutes = minutes;
+        2:   56:}
+        -:   57:
+function _ZN8Duration8set_hourEi called 2 returned 100% blocks executed 100%
+        2:   58:void Duration::set_hour(int hour)
+        -:   59:{
+        2:   60:    this->hour = hour;
+        2:   61:}
+function _ZN8Duration8set_yearEi called 2 returned 100% blocks executed 100%
+        2:   62:void Duration::set_year(int year)
+        -:   63:{
+        2:   64:    this->year = year;
+        2:   65:}
+function _ZN8Duration9set_monthEi called 2 returned 100% blocks executed 100%
+        2:   66:void Duration::set_month(int month)
+        -:   67:{
+        2:   68:    this->month = month;
+        2:   69:}
+function _ZN8Duration7set_dayEi called 2 returned 100% blocks executed 100%
+        2:   70:void Duration::set_day(int day)
+        -:   71:{
+        2:   72:    this->day = day;
+        2:   73:}
